@@ -1,6 +1,8 @@
 # Hey, I'm **Neeraj**! 👋  
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Nunito&pause=1000&color=9D79F7&multiline=true&width=435&lines=Welcome+to+my+Github+Profile)](https://git.io/typing-svg)
 
+![Neeraj's GitHub Stats](https://github-readme-stats-neon.vercel.app/api?username=NeerajCodz&show_icons=true&count_private=true&include_all_commits=true&theme=radical)
+
 ---
 
 ## 🤘🏻 ABOUT ME
@@ -12,6 +14,9 @@ As a student with a deep passion for technology, I’ve already explored and hav
 ## 💪 SKILLS
 
 ### 🧑🏻‍💻 Coding Languages
+
+![Top Langs](https://github-readme-stats-neon.vercel.app/api/top-langs/?username=NeerajCodz&layout=compact&theme=radical)
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-ED8B00?style=for-the-badge&logo=javascript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![GO-LANG](https://img.shields.io/badge/golang-00ADD8?&style=for-the-badge&logo=go&logoColor=white)
@@ -52,15 +57,6 @@ As a student with a deep passion for technology, I’ve already explored and hav
 - GenAI 🤖
 - Encryption and Decryption Technologies 🔒
 - Flutter
-
-## ⭕ GitHub Stats
-
-![Neeraj's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NeerajCodz&show_icons=true&count_private=true&hide_title=true&hide=prs&theme=radical&include_all_commits=true)
-
-### ✈️ Top Languages
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NeerajCodz&layout=compact&theme=radical)
-
 ---
 
 ## 💖 SOCIAL
