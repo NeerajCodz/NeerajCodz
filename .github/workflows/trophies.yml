@@ -1,0 +1,57 @@
+﻿name: Update Trophies Card
+
+on:
+  schedule:
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  trophies:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ensure profile directory
+        run: mkdir -p profile
+
+      - name: Download trophies SVG (with fallback)
+        run: |
+          URL_1="https://github-profile-trophy.vercel.app/?username=NeerajCodz&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8"
+          URL_2="https://github-profile-trophy-sigma-five.vercel.app/?username=NeerajCodz&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8"
+
+          success=0
+          for URL in "$URL_1" "$URL_2"; do
+            echo "Trying $URL"
+            if curl -fL --retry 5 --retry-delay 2 --retry-all-errors "$URL" -o profile/trophies.tmp.svg; then
+              if grep -qi "<svg" profile/trophies.tmp.svg; then
+                mv profile/trophies.tmp.svg profile/trophies.svg
+                success=1
+                break
+              fi
+            fi
+          done
+
+          rm -f profile/trophies.tmp.svg
+
+          if [ "$success" -ne 1 ] && [ ! -f profile/trophies.svg ]; then
+            cat > profile/trophies.svg <<'SVGEOF'
+            <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220">
+              <rect width="1280" height="220" fill="#0d1117"/>
+              <rect x="12" y="12" width="1256" height="196" rx="12" fill="#111827" stroke="#334155"/>
+              <text x="40" y="95" fill="#93c5fd" font-size="36" font-family="Segoe UI, Arial, sans-serif">Trophies card is temporarily unavailable</text>
+              <text x="40" y="140" fill="#cbd5e1" font-size="24" font-family="Segoe UI, Arial, sans-serif">Workflow kept the last good SVG (or created this fallback).</text>
+            </svg>
+            SVGEOF
+          fi
+
+      - name: Commit trophies
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet -- profile/trophies.svg && exit 0
+          git add profile/trophies.svg
+          git commit -m "chore: update trophies card [skip ci]" || exit 0
+          git push

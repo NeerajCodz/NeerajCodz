@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220">
+  <rect width="1280" height="220" fill="#0d1117"/>
+  <rect x="12" y="12" width="1256" height="196" rx="12" fill="#111827" stroke="#334155"/>
+  <text x="40" y="95" fill="#93c5fd" font-size="36" font-family="Segoe UI, Arial, sans-serif">Trophies card is temporarily unavailable</text>
+  <text x="40" y="140" fill="#cbd5e1" font-size="24" font-family="Segoe UI, Arial, sans-serif">Workflow will auto-replace this with live trophies once endpoint recovers.</text>
+</svg>

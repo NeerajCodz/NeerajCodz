@@ -20,6 +20,25 @@
 
 </div>
 
+## Live Dashboard
+
+<div align="center">
+  <img height="180" src="./profile/stats.svg" />
+  <img height="180" src="./profile/top-langs.svg" />
+</div>
+
+<div align="center">
+  <img width="95%" src="./profile/metrics.svg" />
+</div>
+
+<div align="center">
+  <img width="95%" src="https://streak-stats.demolab.com?user=NeerajCodz&theme=github-dark-blue&hide_border=true&background=0D1117&ring=3A86FF&fire=FF6B6B&currStreakLabel=3A86FF" />
+</div>
+
+<div align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=NeerajCodz&bg_color=0d1117&color=3a86ff&line=3a86ff&point=80ed99&area=true&hide_border=true" />
+</div>
+
 ## About Me
 
 ```yaml
@@ -61,29 +80,10 @@ open_to:
 
 </div>
 
-## Live Dashboard
-
-<div align="center">
-  <img height="180" src="./profile/stats.svg" />
-  <img height="180" src="./profile/top-langs.svg" />
-</div>
-
-<div align="center">
-  <img width="95%" src="./profile/metrics.svg" />
-</div>
-
-<div align="center">
-  <img width="95%" src="https://streak-stats.demolab.com?user=NeerajCodz&theme=github-dark-blue&hide_border=true&background=0D1117&ring=3A86FF&fire=FF6B6B&currStreakLabel=3A86FF" />
-</div>
-
-<div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=NeerajCodz&bg_color=0d1117&color=3a86ff&line=3a86ff&point=80ed99&area=true&hide_border=true" />
-</div>
-
 ## Trophies and Highlights
 
 <div align="center">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=NeerajCodz&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
+  <img width="100%" src="./profile/trophies.svg" />
 </div>
 
 <div align="center">
@@ -102,11 +102,6 @@ open_to:
 </picture>
 
 </div>
-
-## Recent Activity
-
-<!-- ACTIVITY:START -->
-<!-- ACTIVITY:END -->
 
 ## Quote of the Day
 
