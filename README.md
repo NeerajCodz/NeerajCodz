@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0b132b,50:1c2541,100:3a506b&text=Neeraj%20Sathish%20Kumar&fontSize=48&fontColor=ffffff&fontAlignY=40&desc=Building%20things%20that%20actually%20matter&descAlignY=62&descSize=16&animation=twinkling" />
+<img width="100%" src="./profile/hero.svg" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3500&pause=900&center=true&vCenter=true&width=760&height=55&lines=Building+useful+products+end-to-end;Designing+LLM+apps+and+automation+workflows;Exploring+security%2C+systems%2C+and+performance;Open+to+collabs+and+ambitious+builds" alt="Typing SVG" />
 
@@ -114,6 +114,7 @@ open_to:
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:3a506b,50:1c2541,100:0b132b" />
+<img width="100%" src="./profile/hero.svg" />
 
 </div>
+
