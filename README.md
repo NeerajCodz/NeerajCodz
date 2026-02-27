@@ -114,7 +114,7 @@ open_to:
 
 <div align="center">
 
-<img width="100%" src="./profile/hero.svg" />
+<img width="100%" src="./profile/footer.svg" />
 
 </div>
 

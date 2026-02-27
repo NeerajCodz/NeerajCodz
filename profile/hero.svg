@@ -1,46 +1,120 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 280" role="img" aria-label="Neeraj Sathish Kumar hero banner">
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-label="Neeraj Sathish Kumar hero banner">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b132b" />
-      <stop offset="50%" stop-color="#1c2541" />
-      <stop offset="100%" stop-color="#3a506b" />
-      <animate attributeName="x1" values="0;1;0" dur="12s" repeatCount="indefinite" />
-      <animate attributeName="x2" values="1;0;1" dur="12s" repeatCount="indefinite" />
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060816"/>
+      <stop offset="35%" stop-color="#0f1f3d"/>
+      <stop offset="70%" stop-color="#1a2f58"/>
+      <stop offset="100%" stop-color="#10233f"/>
+      <animate attributeName="x1" values="0;0.2;0" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0;0.15;0" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0.85;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="1;0.8;1" dur="14s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#f8fafc" />
-      <stop offset="50%" stop-color="#c7d2fe" />
-      <stop offset="100%" stop-color="#dbeafe" />
-      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite" />
-      <animate attributeName="x2" values="1;0;1" dur="8s" repeatCount="indefinite" />
-    </linearGradient>
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
+
+    <radialGradient id="orbA" cx="22%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orbB" cx="85%" cy="75%" r="56%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orbC" cx="60%" cy="30%" r="52%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blurXL" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="52"/>
+    </filter>
+
+    <filter id="blurMD" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <filter id="nameGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="b"/>
+      <feOffset dy="0" result="o"/>
       <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="o"/>
+        <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="45%" stop-color="#e9edff"/>
+      <stop offset="100%" stop-color="#cfe7ff"/>
+      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
   </defs>
 
-  <rect width="1280" height="280" rx="24" fill="url(#bg)" />
+  <rect width="1280" height="320" rx="26" fill="url(#base)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+  </rect>
 
-  <circle cx="150" cy="70" r="110" fill="#7dd3fc" fill-opacity="0.08">
-    <animate attributeName="cx" values="150;220;150" dur="14s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="1120" cy="220" r="140" fill="#a78bfa" fill-opacity="0.08">
-    <animate attributeName="cy" values="220;170;220" dur="16s" repeatCount="indefinite" />
-  </circle>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.15s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 640 160;2 640 160;0 640 160" dur="28s" repeatCount="indefinite"/>
+    <ellipse cx="220" cy="70" rx="260" ry="170" fill="url(#orbA)" filter="url(#blurXL)">
+      <animate attributeName="cx" values="220;305;220" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="70;105;70" dur="15s" repeatCount="indefinite"/>
+    </ellipse>
 
-  <text x="640" y="128" text-anchor="middle" fill="url(#textGrad)" filter="url(#softGlow)"
-        font-family="'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif" font-size="64" font-weight="700" letter-spacing="1.2">
+    <ellipse cx="1040" cy="270" rx="300" ry="190" fill="url(#orbB)" filter="url(#blurXL)">
+      <animate attributeName="cx" values="1040;965;1040" dur="17s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="270;230;270" dur="17s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <ellipse cx="730" cy="88" rx="240" ry="130" fill="url(#orbC)" filter="url(#blurMD)">
+      <animate attributeName="cx" values="730;775;730" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="88;110;88" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <g opacity="0.24">
+    <circle cx="128" cy="60" r="2.8" fill="#dbeafe">
+      <animate attributeName="cy" values="60;38;60" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.9;0.15" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1148" cy="72" r="2.4" fill="#bfdbfe">
+      <animate attributeName="cy" values="72;48;72" dur="8.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.85;0.2" dur="8.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="288" r="2.6" fill="#bae6fd">
+      <animate attributeName="cy" values="288;266;288" dur="9.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.18;0.82;0.18" dur="9.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+
+  <g opacity="0.22">
+    <path d="M0 250 C210 200, 420 290, 640 238 C850 190, 1080 276, 1280 230 L1280 320 L0 320 Z" fill="#9ecbff" filter="url(#blurMD)">
+      <animate attributeName="d" dur="12s" repeatCount="indefinite"
+        values="M0 250 C210 200, 420 290, 640 238 C850 190, 1080 276, 1280 230 L1280 320 L0 320 Z;
+                M0 246 C220 182, 430 302, 650 228 C870 168, 1090 280, 1280 222 L1280 320 L0 320 Z;
+                M0 250 C210 200, 420 290, 640 238 C850 190, 1080 276, 1280 230 L1280 320 L0 320 Z"/>
+    </path>
+  </g>
+
+  <text x="640" y="146" text-anchor="middle" fill="url(#nameFill)" filter="url(#nameGlow)" opacity="0"
+    font-family="'Segoe UI', 'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="66" letter-spacing="1.1">
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.35s" fill="freeze"/>
+    <animate attributeName="y" values="164;146" dur="1s" begin="0.35s" fill="freeze"/>
     Neeraj Sathish Kumar
-    <animate attributeName="opacity" values="0.95;1;0.95" dur="4.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.94;1;0.94" dur="4.2s" begin="1.4s" repeatCount="indefinite"/>
   </text>
 
-  <text x="640" y="185" text-anchor="middle" fill="#dbeafe"
-        font-family="'Times New Roman', Georgia, serif" font-size="30" font-style="italic" letter-spacing="0.8">
+  <text x="640" y="202" text-anchor="middle" fill="#d8e8ff" opacity="0"
+    font-family="'Georgia', 'Times New Roman', serif" font-size="32" font-style="italic" font-weight="400" letter-spacing="0.55">
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze"/>
+    <animate attributeName="y" values="220;202" dur="1s" begin="0.5s" fill="freeze"/>
     Building things that actually matter.
-    <animate attributeName="opacity" values="0.75;1;0.75" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="5.8s" begin="1.6s" repeatCount="indefinite"/>
   </text>
+
+  <rect x="268" y="226" width="744" height="1.6" fill="#b7d5ff" opacity="0.34"/>
 </svg>
