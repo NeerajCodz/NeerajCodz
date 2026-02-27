@@ -17,35 +17,122 @@ jobs:
       - name: Ensure profile directory
         run: mkdir -p profile
 
-      - name: Download trophies SVG (with fallback)
+      - name: Generate trophies SVG from GitHub API
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: NeerajCodz
         run: |
-          URL_1="https://github-profile-trophy.vercel.app/?username=NeerajCodz&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8"
-          URL_2="https://github-profile-trophy-sigma-five.vercel.app/?username=NeerajCodz&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8"
+          python3 << 'PYEOF'
+          import json
+          import os
+          import urllib.request
 
-          success=0
-          for URL in "$URL_1" "$URL_2"; do
-            echo "Trying $URL"
-            if curl -fL --retry 5 --retry-delay 2 --retry-all-errors "$URL" -o profile/trophies.tmp.svg; then
-              if grep -qi "<svg" profile/trophies.tmp.svg; then
-                mv profile/trophies.tmp.svg profile/trophies.svg
-                success=1
-                break
-              fi
-            fi
-          done
+          token = os.environ.get("GH_TOKEN", "")
+          login = os.environ.get("GH_LOGIN", "NeerajCodz")
 
-          rm -f profile/trophies.tmp.svg
+          query = {
+              "query": """
+              query($login: String!) {
+                user(login: $login) {
+                  followers { totalCount }
+                  repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+                    totalCount
+                    nodes { stargazerCount }
+                  }
+                  contributionsCollection {
+                    contributionCalendar { totalContributions }
+                  }
+                  pullRequests(states: MERGED) { totalCount }
+                  issues { totalCount }
+                }
+              }
+              """,
+              "variables": {"login": login},
+          }
 
-          if [ "$success" -ne 1 ] && [ ! -f profile/trophies.svg ]; then
-            cat > profile/trophies.svg <<'SVGEOF'
-            <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220">
-              <rect width="1280" height="220" fill="#0d1117"/>
-              <rect x="12" y="12" width="1256" height="196" rx="12" fill="#111827" stroke="#334155"/>
-              <text x="40" y="95" fill="#93c5fd" font-size="36" font-family="Segoe UI, Arial, sans-serif">Trophies card is temporarily unavailable</text>
-              <text x="40" y="140" fill="#cbd5e1" font-size="24" font-family="Segoe UI, Arial, sans-serif">Workflow kept the last good SVG (or created this fallback).</text>
-            </svg>
-            SVGEOF
-          fi
+          req = urllib.request.Request(
+              "https://api.github.com/graphql",
+              data=json.dumps(query).encode("utf-8"),
+              headers={
+                  "Authorization": f"Bearer {token}",
+                  "Content-Type": "application/json",
+                  "User-Agent": "trophies-generator",
+              },
+              method="POST",
+          )
+
+          try:
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  payload = json.loads(resp.read().decode("utf-8"))
+          except Exception:
+              payload = {}
+
+          user = payload.get("data", {}).get("user", {})
+          repos = user.get("repositories", {}).get("nodes", [])
+
+          followers = user.get("followers", {}).get("totalCount", 0)
+          repo_count = user.get("repositories", {}).get("totalCount", 0)
+          total_stars = sum((r.get("stargazerCount", 0) for r in repos))
+          contributions = (
+              user.get("contributionsCollection", {})
+              .get("contributionCalendar", {})
+              .get("totalContributions", 0)
+          )
+          merged_prs = user.get("pullRequests", {}).get("totalCount", 0)
+          issues = user.get("issues", {}).get("totalCount", 0)
+
+          cards = [
+              ("Followers", followers, "Community"),
+              ("Total Stars", total_stars, "Impact"),
+              ("Public Repos", repo_count, "Builder"),
+              ("Contributions", contributions, "Consistency"),
+              ("Merged PRs", merged_prs, "Collaboration"),
+              ("Issues", issues, "Problem Solver"),
+          ]
+
+          width = 1280
+          height = 320
+          card_w = 395
+          card_h = 105
+          gap_x = 25
+          gap_y = 20
+          start_x = 22
+          start_y = 82
+
+          def esc(s: str) -> str:
+              return (
+                  str(s)
+                  .replace("&", "&amp;")
+                  .replace("<", "&lt;")
+                  .replace(">", "&gt;")
+              )
+
+          lines = [
+              f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
+              '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#111827"/></linearGradient></defs>',
+              '<rect width="100%" height="100%" fill="url(#bg)"/>',
+              '<text x="30" y="44" fill="#93c5fd" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">GitHub Trophies</text>',
+              f'<text x="30" y="68" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="18">Auto-generated for @{esc(login)}</text>',
+          ]
+
+          for i, (title, value, subtitle) in enumerate(cards):
+              row = i // 3
+              col = i % 3
+              x = start_x + col * (card_w + gap_x)
+              y = start_y + row * (card_h + gap_y)
+
+              lines.extend([
+                  f'<rect x="{x}" y="{y}" width="{card_w}" height="{card_h}" rx="14" fill="#0b1220" stroke="#334155"/>',
+                  f'<text x="{x+18}" y="{y+32}" fill="#a5b4fc" font-family="Segoe UI, Arial, sans-serif" font-size="18">{esc(title)}</text>',
+                  f'<text x="{x+18}" y="{y+70}" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">{esc(value)}</text>',
+                  f'<text x="{x+18}" y="{y+92}" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">{esc(subtitle)}</text>',
+              ])
+
+          lines.append('</svg>')
+
+          with open("profile/trophies.svg", "w", encoding="utf-8") as f:
+              f.write("\n".join(lines))
+          PYEOF
 
       - name: Commit trophies
         run: |
