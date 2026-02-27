@@ -1,79 +1,154 @@
-# Hey, I'm **Neeraj**! 👋  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Nunito&pause=1000&color=9D79F7&multiline=true&width=435&lines=Welcome+to+my+Github+Profile)](https://git.io/typing-svg)
+<div align="center">
 
-![Neeraj's GitHub Stats](https://github-readme-stats-neon.vercel.app/api?username=NeerajCodz&show_icons=true&count_private=true&include_all_commits=true&theme=radical)
+<!-- ░░░ HEADER ░░░ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Neeraj%20Sathish%20Kumar&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Builder.%20Thinker.%20Breaker%20of%20things.&descAlignY=58&descSize=18&animation=fadeIn&fontAlign=50" />
 
----
+<!-- ░░░ TYPING SVG ░░░ -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=58a6ff&center=true&vCenter=true&random=true&width=600&height=45&lines=Full-Stack+Web+Developer+%F0%9F%9A%80;AI+%2F+ML+Engineer+%F0%9F%A4%96;Cybersecurity+Enthusiast+%F0%9F%94%90;App+Developer+%F0%9F%93%B1;Open+to+Collabs+%E2%80%94+Let%27s+Ship+Something+%F0%9F%94%A5" />
+</a>
 
-## 🤘🏻 ABOUT ME
+<br/><br/>
 
-As a student with a deep passion for technology, I’ve already explored and have experience with several programming languages, including Python 🐍, Java ☕, Bash 💻, and JavaScript 🔧. My journey in web development has led me to build dynamic and responsive websites using React ⚛️ and Next.js 🌍. I’m equally fascinated by AI 🤖 and cloud computing 🌥️, where I’ve developed AI assistants 💬 and explored cloud platforms to bring my projects to life. Beyond coding, I have a keen interest in marketing 📈 and social media 📱, understanding their impact on the tech world 🌐. I’m eager to continue expanding my knowledge and skills 🌱, with a strong desire to make meaningful contributions to the tech industry 🚀. I’m constantly learning, building, and looking for opportunities to collaborate and innovate 💡
+<!-- ░░░ SOCIALS ░░░ -->
+<a href="https://github.com/NeerajCodz"><img src="https://img.shields.io/badge/GitHub-%23ffffff?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=58a6ff" /></a>&nbsp;
+<a href="https://www.linkedin.com/in/neeraj-sathish-kumar"><img src="https://img.shields.io/badge/LinkedIn-%23ffffff?style=flat-square&logo=linkedin&logoColor=white&color=0077B5" /></a>&nbsp;
+<a href="https://twitter.com/NeerajCodz"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-%23ffffff?style=flat-square&logo=x&logoColor=white&color=111111" /></a>&nbsp;
+<a href="https://instagram.com/NeerajCodz"><img src="https://img.shields.io/badge/Instagram-%23ffffff?style=flat-square&logo=instagram&logoColor=white&color=E1306C" /></a>&nbsp;
+<a href="mailto:neerajcodz@gmail.com"><img src="https://img.shields.io/badge/Email-%23ffffff?style=flat-square&logo=gmail&logoColor=white&color=EA4335" /></a>
 
----
+<br/><br/>
 
-## 💪 SKILLS
+<!-- ░░░ META ░░░ -->
+<img src="https://komarev.com/ghpvc/?username=NeerajCodz&style=flat-square&color=58a6ff&label=PROFILE+VIEWS" />&nbsp;
+<img src="https://img.shields.io/github/followers/NeerajCodz?label=Followers&style=flat-square&color=58a6ff&labelColor=0d1117" />
 
-### 🧑🏻‍💻 Coding Languages
-
-![Top Langs](https://github-readme-stats-neon.vercel.app/api/top-langs/?username=NeerajCodz&layout=compact&theme=radical)
-
-![JavaScript](https://img.shields.io/badge/JavaScript-ED8B00?style=for-the-badge&logo=javascript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![GO-LANG](https://img.shields.io/badge/golang-00ADD8?&style=for-the-badge&logo=go&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![SQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-
-### ⚙️ Frameworks
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Nest.js](https://img.shields.io/badge/-NestJs-ea2845?style=flat-square&logo=nestjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-
-### 🔧 Tools
-![Git](https://img.shields.io/badge/Git-F1502F?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-
-### 📁 Softwares
-![Android Studio](https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-### 🎨 Design & Media
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![DaVinci Resolve](https://img.shields.io/badge/DaVinci%20Resolve-FF5C00?style=for-the-badge&logo=blackmagicdesign&logoColor=white)
-![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=for-the-badge&logo=adobe-premierepro&logoColor=white)
-![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white)
-![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white)
+</div>
 
 ---
 
-## 🧠 Learning
-- LangChain 🔗
-- LlamaIndex 🦙
-- GenAI 🤖
-- Encryption and Decryption Technologies 🔒
-- Flutter
----
+## 🧠 Who I Am
 
-## 💖 SOCIAL
-
-<a href="https://github.com/NeerajCodz" target="_blank"><img src="https://img.shields.io/badge/Github-NeerajCodz-green?style=for-the-badge&logo=github"></a>
-
-<a href="https://www.facebook.com/profile.php?id=61552193834795" target="_blank"><img src="https://img.shields.io/badge/FaceBook-NeerajCodz-purple?style=for-the-badge&logo=facebook"></a>
-
-<a href="https://instagram.com/NeerajCodz" target="_blank"><img src="https://img.shields.io/badge/Instagram-NeerajCodz-pink?style=for-the-badge&logo=instagram"></a>
-
-<a href="https://twitter.com/NeerajCodz" target="_blank"><img src="https://img.shields.io/badge/X-NeerajCodz-black?style=for-the-badge&logo=x"></a>
-
-<a href="https://www.linkedin.com/in/neeraj-sathish-kumar" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Neeraj-blue?style=for-the-badge&logo=linkedin"></a>
-
-<a href="mailto:neerajcodz@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-neerajcodz@gmail.com-teal?style=for-the-badge&logo=gmail"></a>
+```yaml
+name:     Neeraj Sathish Kumar
+handle:   @NeerajCodz
+domains:
+  - 🌐 Web App Development   → Full-Stack · Next.js · React · NestJS · FastAPI
+  - 🔐 Cybersecurity         → Encryption / Decryption · Secure Systems
+  - 📱 App Development        → Android · Flutter · Firebase
+  - 🤖 AI / ML               → LLMs · LangChain · LlamaIndex · GenAI · Agents
+open_to:  [ Collaborations, Open Source, Internships ]
+```
 
 ---
 
-**Thanks for visiting my profile!**  
-Feel free to explore my repositories, and let's connect! 🚀
+## ⚡ The Stack
+
+<div align="center">
+
+**Languages**
+
+![JavaScript](https://skillicons.dev/icons?i=js)&nbsp;![TypeScript](https://skillicons.dev/icons?i=ts)&nbsp;![Python](https://skillicons.dev/icons?i=py)&nbsp;![Go](https://skillicons.dev/icons?i=go)&nbsp;![Java](https://skillicons.dev/icons?i=java)&nbsp;![Bash](https://skillicons.dev/icons?i=bash)&nbsp;![MySQL](https://skillicons.dev/icons?i=mysql)
+
+**Frameworks & Runtimes**
+
+![Next.js](https://skillicons.dev/icons?i=nextjs)&nbsp;![React](https://skillicons.dev/icons?i=react)&nbsp;![NestJS](https://skillicons.dev/icons?i=nestjs)&nbsp;![FastAPI](https://skillicons.dev/icons?i=fastapi)&nbsp;![Node.js](https://skillicons.dev/icons?i=nodejs)&nbsp;![Flutter](https://skillicons.dev/icons?i=flutter)
+
+**Cloud, DB & Tooling**
+
+![Firebase](https://skillicons.dev/icons?i=firebase)&nbsp;![Supabase](https://skillicons.dev/icons?i=supabase)&nbsp;![Vercel](https://skillicons.dev/icons?i=vercel)&nbsp;![Git](https://skillicons.dev/icons?i=git)&nbsp;![GitHub](https://skillicons.dev/icons?i=github)&nbsp;![VSCode](https://skillicons.dev/icons?i=vscode)&nbsp;![AndroidStudio](https://skillicons.dev/icons?i=androidstudio)
+
+**Design**
+
+![Figma](https://skillicons.dev/icons?i=figma)&nbsp;![Photoshop](https://skillicons.dev/icons?i=ps)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+
+<div align="center">
+
+<img height="180em" src="./profile/stats.svg" />
+<img height="180em" src="./profile/top-langs.svg" />
+
+</div>
+
+---
+
+## 🔥 Streak
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats-eight.vercel.app?user=NeerajCodz&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff" />
+
+</div>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NeerajCodz&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true" />
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NeerajCodz/NeerajCodz/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NeerajCodz/NeerajCodz/output/github-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/NeerajCodz/NeerajCodz/output/github-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+## 🏆 Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=NeerajCodz&theme=algolia&no-frame=true&column=7&margin-w=10&margin-h=10" />
+
+</div>
+
+---
+
+## 💬 Quote of the Day
+
+> Auto-refreshed daily via [`quote.yml`](./.github/workflows/quote.yml) — random CS quote every 24h.
+
+<!-- QUOTE:START -->
+<!-- QUOTE:END -->
+
+---
+
+## ♟️ Play Chess With Me
+
+> **Anyone** can play! Click a move below — it opens a pre-filled Issue. Once submitted, a GitHub Action updates the board automatically. Powered by [`chess.yml`](./.github/workflows/chess.yml).
+
+<!-- BEGIN CHESS BOARD -->
+
+> ♟️ Run [`chess.yml`](./.github/workflows/chess.yml) once to initialize the board. Then anyone can make a move via Issues!
+
+<!-- END CHESS BOARD -->
+
+**▶ It's White's turn — [Make a move!](../../issues/new?title=Chess%3A+Move&body=Move+notation%3A+%5Benter+algebraic+move%2C+e.g.+e2e4%5D)**
+
+---
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" />
+
+**Let's build something great — find me anywhere @NeerajCodz 🚀**
+
+</div>
