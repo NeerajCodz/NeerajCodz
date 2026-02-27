@@ -19,8 +19,8 @@ jobs:
 
       - name: Download stats cards
         run: |
-          curl -fsSL "https://github-readme-stats.vercel.app/api?username=NeerajCodz&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3a86ff&icon_color=3a86ff&text_color=c9d1d9" -o profile/stats.svg
-          curl -fsSL "https://github-readme-stats.vercel.app/api/top-langs/?username=NeerajCodz&layout=donut&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&text_color=c0caf5" -o profile/top-langs.svg
+          curl -fL --retry 5 --retry-delay 2 --retry-all-errors "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NeerajCodz&theme=2077" -o profile/stats.svg
+          curl -fL --retry 5 --retry-delay 2 --retry-all-errors "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NeerajCodz&theme=2077" -o profile/top-langs.svg
 
       - name: Commit cards
         run: |
