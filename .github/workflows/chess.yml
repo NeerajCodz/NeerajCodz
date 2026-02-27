@@ -1,0 +1,212 @@
+name: ♟️ README Chess
+
+# ─────────────────────────────────────────────────────────────────
+# HOW THIS WORKS:
+#   1. First run: initializes a fresh chess board in README.md
+#   2. Anyone can play by opening an Issue titled "Chess: Move"
+#      with the body containing algebraic notation (e.g. "e2e4")
+#   3. This workflow validates the move, updates the board, commits
+#      the new README, and closes the Issue automatically.
+#
+# SETUP:
+#   - Based on marcizhu/readme-chess (Python + python-chess)
+#   - Install deps: pip install python-chess
+#   - Repo needs: scripts/chess_move.py (included below as inline setup)
+#   - Enable "Read and write permissions" in repo Settings → Actions
+#
+# PLAY:
+#   Open an issue: title = "Chess: Move", body = your move (e.g. "e2e4")
+# ─────────────────────────────────────────────────────────────────
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+    inputs:
+      move:
+        description: 'Chess move in algebraic notation (e.g. e2e4)'
+        required: false
+        default: ''
+
+jobs:
+  chess:
+    runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      startsWith(github.event.issue.title, 'Chess:')
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install python-chess
+        run: pip install python-chess
+
+      # ── Write the chess engine script inline ──────────────────
+      - name: Write chess_move.py
+        run: |
+          cat > chess_move.py << 'PYEOF'
+          import chess
+          import chess.svg
+          import re
+          import sys
+          import os
+
+          BOARD_START = "<!-- BEGIN CHESS BOARD -->"
+          BOARD_END   = "<!-- END CHESS BOARD -->"
+          STATE_FILE  = ".chess_state"
+
+          def load_state():
+              if os.path.exists(STATE_FILE):
+                  with open(STATE_FILE) as f:
+                      fen = f.read().strip()
+                  try:
+                      return chess.Board(fen)
+                  except:
+                      pass
+              return chess.Board()
+
+          def save_state(board):
+              with open(STATE_FILE, "w") as f:
+                  f.write(board.fen())
+
+          def board_to_markdown(board):
+              pieces = {
+                  'P': '♙', 'N': '♘', 'B': '♗', 'R': '♖', 'Q': '♕', 'K': '♔',
+                  'p': '♟', 'n': '♞', 'b': '♝', 'r': '♜', 'q': '♛', 'k': '♚',
+              }
+              rows = []
+              rows.append("| | a | b | c | d | e | f | g | h |")
+              rows.append("|---|---|---|---|---|---|---|---|---|")
+              for rank in range(7, -1, -1):
+                  row = [f"**{rank+1}**"]
+                  for file in range(8):
+                      sq = chess.square(file, rank)
+                      piece = board.piece_at(sq)
+                      if piece:
+                          row.append(pieces.get(piece.symbol(), '·'))
+                      else:
+                          row.append('·' if (rank + file) % 2 == 0 else '░')
+                  rows.append("| " + " | ".join(row) + " |")
+              return "\n".join(rows)
+
+          def make_move_links(board):
+              legal = list(board.legal_moves)
+              if not legal:
+                  return "_No legal moves — game over._"
+              links = []
+              seen = set()
+              for move in sorted(legal, key=lambda m: m.uci()):
+                  uci = move.uci()
+                  if uci not in seen:
+                      seen.add(uci)
+                      san = board.san(move)
+                      url = f"../../issues/new?title=Chess%3A+Move&body={uci}"
+                      links.append(f"[{san}]({url})")
+              turn = "⬜ White" if board.turn == chess.WHITE else "⬛ Black"
+              chunks = [links[i:i+10] for i in range(0, min(len(links), 40), 10)]
+              rows = ["**" + turn + "'s turn** — pick a move:"]
+              for chunk in chunks:
+                  rows.append(" · ".join(chunk))
+              return "\n\n".join(rows)
+
+          def update_readme(board):
+              with open("README.md") as f:
+                  content = f.read()
+              board_md = board_to_markdown(board)
+              links_md = make_move_links(board)
+              status = ""
+              if board.is_checkmate():
+                  winner = "⬛ Black" if board.turn == chess.WHITE else "⬜ White"
+                  status = f"\n\n🏆 **Checkmate! {winner} wins!** [Restart?](../../issues/new?title=Chess%3A+Restart&body=new+game)"
+              elif board.is_stalemate():
+                  status = "\n\n🤝 **Stalemate — it's a draw!** [Restart?](../../issues/new?title=Chess%3A+Restart&body=new+game)"
+              elif board.is_check():
+                  status = "\n\n⚠️ **Check!**"
+              replacement = f"\n\n{board_md}\n\n{links_md}{status}\n\n"
+              new_content = re.sub(
+                  rf"{re.escape(BOARD_START)}.*?{re.escape(BOARD_END)}",
+                  BOARD_START + replacement + BOARD_END,
+                  content, flags=re.DOTALL
+              )
+              with open("README.md", "w") as f:
+                  f.write(new_content)
+
+          def main():
+              board = load_state()
+              move_input = os.environ.get("CHESS_MOVE", "").strip()
+              if move_input.lower() in ("restart", "new game", "reset"):
+                  board = chess.Board()
+                  print("Board reset.")
+              elif move_input:
+                  try:
+                      move = board.parse_uci(move_input)
+                  except:
+                      try:
+                          move = board.parse_san(move_input)
+                      except:
+                          print(f"Invalid move: {move_input}")
+                          sys.exit(1)
+                  if move in board.legal_moves:
+                      board.push(move)
+                      print(f"Move made: {move_input}")
+                  else:
+                      print(f"Illegal move: {move_input}")
+                      sys.exit(1)
+              save_state(board)
+              update_readme(board)
+
+          main()
+          PYEOF
+
+      # ── Extract move from Issue body or workflow_dispatch ──────
+      - name: Extract move
+        id: get_move
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY:  ${{ github.event.issue.body }}
+          WD_MOVE:     ${{ github.event.inputs.move }}
+        run: |
+          if [ "${{ github.event_name }}" = "issues" ]; then
+            TITLE="${ISSUE_TITLE}"
+            BODY="${ISSUE_BODY}"
+            if echo "$TITLE" | grep -iq "restart"; then
+              echo "move=restart" >> $GITHUB_OUTPUT
+            else
+              MOVE=$(echo "$BODY" | head -1 | tr -d '[:space:]')
+              echo "move=${MOVE}" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "move=${WD_MOVE}" >> $GITHUB_OUTPUT
+          fi
+
+      # ── Apply the move ─────────────────────────────────────────
+      - name: Apply move & update README
+        env:
+          CHESS_MOVE: ${{ steps.get_move.outputs.move }}
+        run: python chess_move.py
+
+      # ── Commit the updated README ──────────────────────────────
+      - name: Commit updated board
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .chess_state
+          git commit -m "♟️ chess move: ${{ steps.get_move.outputs.move }} [skip ci]" || exit 0
+          git push
+
+      # ── Close and comment on the Issue ────────────────────────
+      - name: Close Issue with comment
+        if: github.event_name == 'issues'
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: |
+            ♟️ Move **`${{ steps.get_move.outputs.move }}`** applied! Check the [board on my profile](https://github.com/NeerajCodz). Your turn!
