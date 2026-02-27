@@ -106,6 +106,10 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
+> "Clean code always looks like it was written by someone who cares."
+>
+> - **Robert C. Martin** | February 27, 2026
+
 <!-- QUOTE:END -->
 
 <div align="center">
