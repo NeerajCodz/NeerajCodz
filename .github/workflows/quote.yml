@@ -1,0 +1,23 @@
+name: 💬 Daily Dev Quote
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # Daily at 2 AM UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update README with Quote
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Uses siddharth2016/quote-readme — auto-fetches a random CS/programming quote
+      # and injects it between <!-- QUOTE:START --> and <!-- QUOTE:END --> tags
+      - name: Inject daily quote into README
+        uses: siddharth2016/quote-readme@main
+        with:
+          OPTION: QUOTE   # "QUOTE" for quotes only, "FACT" for facts, or omit for both
