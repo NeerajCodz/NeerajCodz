@@ -1,13 +1,12 @@
-name: 💬 Daily Dev Quote
+﻿name: Quote of the Day
 
 on:
   schedule:
-    - cron: "0 2 * * *"   # Daily at 2 AM UTC
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
 jobs:
-  update-readme:
-    name: Update README with Quote
+  update-quote:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -15,9 +14,52 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Uses siddharth2016/quote-readme — auto-fetches a random CS/programming quote
-      # and injects it between <!-- QUOTE:START --> and <!-- QUOTE:END --> tags
-      - name: Inject daily quote into README
-        uses: siddharth2016/quote-readme@main
-        with:
-          OPTION: QUOTE   # "QUOTE" for quotes only, "FACT" for facts, or omit for both
+      - name: Inject daily developer quote
+        run: |
+          python3 << 'PYEOF'
+          import datetime
+          import random
+          import re
+
+          QUOTES = [
+            ("Any fool can write code that a computer can understand. Good programmers write code that humans can understand.", "Martin Fowler"),
+            ("First, solve the problem. Then, write the code.", "John Johnson"),
+            ("Simplicity is the soul of efficiency.", "Austin Freeman"),
+            ("Make it work, make it right, make it fast.", "Kent Beck"),
+            ("The best error message is the one that never shows up.", "Thomas Fuchs"),
+            ("Clean code always looks like it was written by someone who cares.", "Robert C. Martin"),
+            ("Design is not just what it looks like. Design is how it works.", "Steve Jobs"),
+            ("Talk is cheap. Show me the code.", "Linus Torvalds"),
+            ("If you think good architecture is expensive, try bad architecture.", "Brian Foote"),
+            ("The best way to predict the future is to invent it.", "Alan Kay"),
+            ("An expert is a person who has made all the mistakes that can be made.", "Niels Bohr"),
+            ("Programs must be written for people to read, and only incidentally for machines to execute.", "Harold Abelson"),
+          ]
+
+          quote, author = random.choice(QUOTES)
+          today = datetime.date.today().strftime("%B %d, %Y")
+          block = f"\n> \"{quote}\"\n>\n> - **{author}** | {today}\n"
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          new_content = re.sub(
+              r"<!-- QUOTE:START -->.*?<!-- QUOTE:END -->",
+              f"<!-- QUOTE:START -->{block}\n<!-- QUOTE:END -->",
+              content,
+              flags=re.DOTALL,
+          )
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(new_content)
+
+          print(f"Injected quote: {quote[:64]}...")
+          PYEOF
+
+      - name: Commit quote update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update daily quote [skip ci]" || exit 0
+          git push
