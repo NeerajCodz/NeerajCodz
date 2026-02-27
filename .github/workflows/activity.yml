@@ -14,12 +14,81 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Update activity section
-        uses: JamesIves/github-activity-readme@v0.4.6
-        with:
-          COMMIT_MSG: "chore: update recent activity [skip ci]"
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MAX_LINES: 8
-          TARGET_FILE: README.md
-          START_DELIMITER: "<!-- ACTIVITY:START -->"
-          END_DELIMITER: "<!-- ACTIVITY:END -->"
+      - name: Inject recent activity
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: NeerajCodz
+        run: |
+          python3 << 'PYEOF'
+          import json
+          import re
+          import urllib.request
+
+          user = "NeerajCodz"
+          url = f"https://api.github.com/users/{user}/events/public?per_page=30"
+          req = urllib.request.Request(url, headers={
+              "Accept": "application/vnd.github+json",
+              "Authorization": f"Bearer {__import__('os').environ.get('GH_TOKEN', '')}",
+              "User-Agent": "activity-readme-updater"
+          })
+
+          with urllib.request.urlopen(req, timeout=30) as resp:
+              events = json.loads(resp.read().decode("utf-8"))
+
+          lines = []
+          for ev in events:
+              t = ev.get("type", "")
+              repo = ev.get("repo", {}).get("name", "")
+              payload = ev.get("payload", {})
+
+              if t == "PushEvent":
+                  commits = payload.get("commits", [])
+                  count = len(commits)
+                  msg = commits[0].get("message", "commit") if commits else "commit"
+                  lines.append(f"- Pushed {count} commit(s) to `{repo}` - {msg[:80]}")
+              elif t == "PullRequestEvent":
+                  action = payload.get("action", "updated")
+                  pr = payload.get("pull_request", {}).get("html_url", "")
+                  lines.append(f"- {action.title()} a PR in `{repo}` {f'([link]({pr}))' if pr else ''}".rstrip())
+              elif t == "IssuesEvent":
+                  action = payload.get("action", "updated")
+                  issue = payload.get("issue", {}).get("html_url", "")
+                  lines.append(f"- {action.title()} an issue in `{repo}` {f'([link]({issue}))' if issue else ''}".rstrip())
+              elif t == "IssueCommentEvent":
+                  issue = payload.get("issue", {}).get("html_url", "")
+                  lines.append(f"- Commented on an issue in `{repo}` {f'([link]({issue}))' if issue else ''}".rstrip())
+              elif t == "CreateEvent":
+                  ref_type = payload.get("ref_type", "resource")
+                  ref = payload.get("ref") or ""
+                  lines.append(f"- Created {ref_type} {f'`{ref}` in ' if ref else 'in '} `{repo}`")
+              elif t == "WatchEvent":
+                  lines.append(f"- Starred `{repo}`")
+
+              if len(lines) >= 8:
+                  break
+
+          if not lines:
+              lines = ["- No recent public activity found."]
+
+          block = "\n".join(lines)
+          start = "<!-- ACTIVITY:START -->"
+          end = "<!-- ACTIVITY:END -->"
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), re.DOTALL)
+          replacement = f"{start}\n{block}\n{end}"
+          new_content = pattern.sub(replacement, content)
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(new_content)
+          PYEOF
+
+      - name: Commit activity update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update recent activity [skip ci]" || exit 0
+          git push
