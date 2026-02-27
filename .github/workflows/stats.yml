@@ -14,21 +14,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: '{"username":"NeerajCodz","show_icons":true,"count_private":true,"include_all_commits":true,"theme":"github_dark","hide_border":true,"bg_color":"0d1117","title_color":"3a86ff","icon_color":"3a86ff","text_color":"c9d1d9"}'
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Ensure profile directory
+        run: mkdir -p profile
 
-      - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: '{"username":"NeerajCodz","layout":"donut","langs_count":8,"theme":"github_dark","hide_border":true,"bg_color":"0d1117","title_color":"3a86ff","text_color":"c9d1d9"}'
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Download stats cards
+        run: |
+          curl -fsSL "https://github-readme-stats.vercel.app/api?username=NeerajCodz&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3a86ff&icon_color=3a86ff&text_color=c9d1d9" -o profile/stats.svg
+          curl -fsSL "https://github-readme-stats.vercel.app/api/top-langs/?username=NeerajCodz&layout=donut&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&text_color=c0caf5" -o profile/top-langs.svg
 
       - name: Commit cards
         run: |

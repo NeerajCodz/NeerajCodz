@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0b132b,50:1c2541,100:3a506b&text=Neeraj%20Sathish%20Kumar&fontSize=48&fontColor=ffffff&fontAlignY=40&desc=Full-Stack%20Builder%20%7C%20AI%2FML%20Engineer%20%7C%20Security-Minded&descAlignY=62&descSize=16&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0b132b,50:1c2541,100:3a506b&text=Neeraj%20Sathish%20Kumar&fontSize=48&fontColor=ffffff&fontAlignY=40&desc=Building%20things%20that%20actually%20matter&descAlignY=62&descSize=16&animation=twinkling" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3500&pause=900&center=true&vCenter=true&width=760&height=55&lines=Building+useful+products+end-to-end;Designing+LLM+apps+and+automation+workflows;Exploring+security%2C+systems%2C+and+performance;Open+to+collabs+and+ambitious+builds" alt="Typing SVG" />
 
@@ -39,11 +39,25 @@ open_to:
   - Internships
 ```
 
-## Tech Arsenal
+## ⚡ The Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=js,ts,py,go,java,bash,react,nextjs,nodejs,nestjs,fastapi,flutter,firebase,supabase,mysql,postgres,redis,docker,git,github,vercel,vscode,androidstudio,figma&perline=12" />
+**Languages**
+
+![JavaScript](https://skillicons.dev/icons?i=js)&nbsp;![TypeScript](https://skillicons.dev/icons?i=ts)&nbsp;![Python](https://skillicons.dev/icons?i=py)&nbsp;![Go](https://skillicons.dev/icons?i=go)&nbsp;![Java](https://skillicons.dev/icons?i=java)&nbsp;![Bash](https://skillicons.dev/icons?i=bash)&nbsp;![MySQL](https://skillicons.dev/icons?i=mysql)
+
+**Frameworks & Runtimes**
+
+![Next.js](https://skillicons.dev/icons?i=nextjs)&nbsp;![React](https://skillicons.dev/icons?i=react)&nbsp;![NestJS](https://skillicons.dev/icons?i=nestjs)&nbsp;![FastAPI](https://skillicons.dev/icons?i=fastapi)&nbsp;![Node.js](https://skillicons.dev/icons?i=nodejs)&nbsp;![Flutter](https://skillicons.dev/icons?i=flutter)
+
+**Cloud, DB & Tooling**
+
+![Firebase](https://skillicons.dev/icons?i=firebase)&nbsp;![Supabase](https://skillicons.dev/icons?i=supabase)&nbsp;![Vercel](https://skillicons.dev/icons?i=vercel)&nbsp;![Git](https://skillicons.dev/icons?i=git)&nbsp;![GitHub](https://skillicons.dev/icons?i=github)&nbsp;![VSCode](https://skillicons.dev/icons?i=vscode)&nbsp;![AndroidStudio](https://skillicons.dev/icons?i=androidstudio)
+
+**Design**
+
+![Figma](https://skillicons.dev/icons?i=figma)&nbsp;![Photoshop](https://skillicons.dev/icons?i=ps)
 
 </div>
 
@@ -59,8 +73,11 @@ open_to:
 </div>
 
 <div align="center">
-  <img width="49%" src="https://streak-stats.demolab.com?user=NeerajCodz&theme=github-dark-blue&hide_border=true&background=0D1117&ring=3A86FF&fire=FF6B6B&currStreakLabel=3A86FF" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=NeerajCodz&bg_color=0d1117&color=3a86ff&line=3a86ff&point=80ed99&area=true&hide_border=true" />
+  <img width="95%" src="https://streak-stats.demolab.com?user=NeerajCodz&theme=github-dark-blue&hide_border=true&background=0D1117&ring=3A86FF&fire=FF6B6B&currStreakLabel=3A86FF" />
+</div>
+
+<div align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=NeerajCodz&bg_color=0d1117&color=3a86ff&line=3a86ff&point=80ed99&area=true&hide_border=true" />
 </div>
 
 ## Trophies and Highlights
