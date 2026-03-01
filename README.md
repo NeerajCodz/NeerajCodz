@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The best way to predict the future is to invent it."
+> "Programs must be written for people to read, and only incidentally for machines to execute."
 >
-> - **Alan Kay** | February 28, 2026
+> - **Harold Abelson** | March 01, 2026
 
 <!-- QUOTE:END -->
 
