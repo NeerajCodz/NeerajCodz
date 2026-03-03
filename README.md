@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "An expert is a person who has made all the mistakes that can be made."
+> "First, solve the problem. Then, write the code."
 >
-> - **Niels Bohr** | March 02, 2026
+> - **John Johnson** | March 03, 2026
 
 <!-- QUOTE:END -->
 
