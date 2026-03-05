@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "First, solve the problem. Then, write the code."
+> "Clean code always looks like it was written by someone who cares."
 >
-> - **John Johnson** | March 04, 2026
+> - **Robert C. Martin** | March 05, 2026
 
 <!-- QUOTE:END -->
 
