@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Clean code always looks like it was written by someone who cares."
+> "If you think good architecture is expensive, try bad architecture."
 >
-> - **Robert C. Martin** | March 05, 2026
+> - **Brian Foote** | March 06, 2026
 
 <!-- QUOTE:END -->
 
