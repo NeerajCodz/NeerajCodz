@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "If you think good architecture is expensive, try bad architecture."
+> "Make it work, make it right, make it fast."
 >
-> - **Brian Foote** | March 06, 2026
+> - **Kent Beck** | March 07, 2026
 
 <!-- QUOTE:END -->
 
