@@ -108,7 +108,7 @@ open_to:
 <!-- QUOTE:START -->
 > "Make it work, make it right, make it fast."
 >
-> - **Kent Beck** | March 07, 2026
+> - **Kent Beck** | March 08, 2026
 
 <!-- QUOTE:END -->
 
