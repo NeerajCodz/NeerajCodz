@@ -108,7 +108,7 @@ open_to:
 <!-- QUOTE:START -->
 > "An expert is a person who has made all the mistakes that can be made."
 >
-> - **Niels Bohr** | March 09, 2026
+> - **Niels Bohr** | March 10, 2026
 
 <!-- QUOTE:END -->
 
