@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "If you think good architecture is expensive, try bad architecture."
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 >
-> - **Brian Foote** | March 12, 2026
+> - **Martin Fowler** | March 13, 2026
 
 <!-- QUOTE:END -->
 
