@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "An expert is a person who has made all the mistakes that can be made."
+> "Clean code always looks like it was written by someone who cares."
 >
-> - **Niels Bohr** | March 15, 2026
+> - **Robert C. Martin** | March 16, 2026
 
 <!-- QUOTE:END -->
 
