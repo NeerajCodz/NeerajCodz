@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Clean code always looks like it was written by someone who cares."
+> "Simplicity is the soul of efficiency."
 >
-> - **Robert C. Martin** | March 16, 2026
+> - **Austin Freeman** | March 17, 2026
 
 <!-- QUOTE:END -->
 
