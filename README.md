@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Simplicity is the soul of efficiency."
+> "If you think good architecture is expensive, try bad architecture."
 >
-> - **Austin Freeman** | March 17, 2026
+> - **Brian Foote** | March 18, 2026
 
 <!-- QUOTE:END -->
 
