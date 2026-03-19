@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "If you think good architecture is expensive, try bad architecture."
+> "First, solve the problem. Then, write the code."
 >
-> - **Brian Foote** | March 18, 2026
+> - **John Johnson** | March 19, 2026
 
 <!-- QUOTE:END -->
 
