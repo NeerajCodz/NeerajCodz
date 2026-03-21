@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "If you think good architecture is expensive, try bad architecture."
+> "The best way to predict the future is to invent it."
 >
-> - **Brian Foote** | March 20, 2026
+> - **Alan Kay** | March 21, 2026
 
 <!-- QUOTE:END -->
 
