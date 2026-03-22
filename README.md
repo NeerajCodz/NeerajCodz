@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The best way to predict the future is to invent it."
+> "Simplicity is the soul of efficiency."
 >
-> - **Alan Kay** | March 21, 2026
+> - **Austin Freeman** | March 22, 2026
 
 <!-- QUOTE:END -->
 
