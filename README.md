@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Programs must be written for people to read, and only incidentally for machines to execute."
+> "If you think good architecture is expensive, try bad architecture."
 >
-> - **Harold Abelson** | March 25, 2026
+> - **Brian Foote** | March 25, 2026
 
 <!-- QUOTE:END -->
 
