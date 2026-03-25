@@ -1,0 +1,39 @@
+﻿name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark&color_snake=3a86ff
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Copy snake files to profile
+        run: |
+          mkdir -p profile
+          cp dist/snake.svg profile/snake.svg
+          cp dist/snake-dark.svg profile/snake-dark.svg
+
+      - name: Commit snake SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/snake.svg profile/snake-dark.svg
+          git commit -m "chore: update contribution snake [skip ci]" || exit 0
+          git push
