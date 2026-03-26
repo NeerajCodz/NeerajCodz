@@ -21,7 +21,7 @@ jobs:
       - name: Download stats cards
         run: |
           curl -fL --retry 5 --retry-delay 2 --retry-all-errors "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NeerajCodz&theme=2077" -o profile/stats.svg
-          curl -fL --retry 5 --retry-delay 2 --retry-all-errors "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NeerajCodz&theme=2077&utcOffset=5.5" -o profile/productive-time.svg
+          curl -fL --retry 5 --retry-delay 2 --retry-all-errors "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NeerajCodz&theme=2077&utcOffset=5.3" -o profile/productive-time.svg
           curl -fL --retry 5 --retry-delay 2 --retry-all-errors "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NeerajCodz&theme=2077" -o profile/top-langs.svg
           curl -fL --retry 5 --retry-delay 2 --retry-all-errors "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NeerajCodz&theme=2077" -o profile/metrics.svg
 
