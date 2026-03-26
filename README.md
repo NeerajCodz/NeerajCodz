@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Programs must be written for people to read, and only incidentally for machines to execute."
+> "Design is not just what it looks like. Design is how it works."
 >
-> - **Harold Abelson** | March 25, 2026
+> - **Steve Jobs** | March 26, 2026
 
 <!-- QUOTE:END -->
 
