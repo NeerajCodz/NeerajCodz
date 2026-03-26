@@ -196,4 +196,5 @@ jobs:
           IST_DATE="$(TZ=Asia/Kolkata date +'%d/%m/%Y')"
           git add README.md profile/*.svg
           git commit -m "update: README.md ${IST_DATE}"
+          git pull --rebase origin main
           git push
