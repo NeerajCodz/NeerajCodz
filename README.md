@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "An expert is a person who has made all the mistakes that can be made."
+> "Design is not just what it looks like. Design is how it works."
 >
-> - **Niels Bohr** | March 26, 2026
+> - **Steve Jobs** | March 27, 2026
 
 <!-- QUOTE:END -->
 
