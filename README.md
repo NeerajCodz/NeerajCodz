@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "An expert is a person who has made all the mistakes that can be made."
+> "Programs must be written for people to read, and only incidentally for machines to execute."
 >
-> - **Niels Bohr** | March 28, 2026
+> - **Harold Abelson** | March 29, 2026
 
 <!-- QUOTE:END -->
 
