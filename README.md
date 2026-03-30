@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Programs must be written for people to read, and only incidentally for machines to execute."
+> "Simplicity is the soul of efficiency."
 >
-> - **Harold Abelson** | March 29, 2026
+> - **Austin Freeman** | March 30, 2026
 
 <!-- QUOTE:END -->
 
