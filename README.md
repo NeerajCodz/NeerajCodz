@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Simplicity is the soul of efficiency."
+> "An expert is a person who has made all the mistakes that can be made."
 >
-> - **Austin Freeman** | March 30, 2026
+> - **Niels Bohr** | March 31, 2026
 
 <!-- QUOTE:END -->
 
