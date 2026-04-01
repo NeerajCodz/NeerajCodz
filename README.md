@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "An expert is a person who has made all the mistakes that can be made."
+> "Make it work, make it right, make it fast."
 >
-> - **Niels Bohr** | March 31, 2026
+> - **Kent Beck** | April 01, 2026
 
 <!-- QUOTE:END -->
 
