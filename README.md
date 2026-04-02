@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Make it work, make it right, make it fast."
+> "Simplicity is the soul of efficiency."
 >
-> - **Kent Beck** | April 01, 2026
+> - **Austin Freeman** | April 02, 2026
 
 <!-- QUOTE:END -->
 
