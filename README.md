@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Make it work, make it right, make it fast."
+> "First, solve the problem. Then, write the code."
 >
-> - **Kent Beck** | April 03, 2026
+> - **John Johnson** | April 04, 2026
 
 <!-- QUOTE:END -->
 
