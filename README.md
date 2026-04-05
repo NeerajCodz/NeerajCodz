@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "First, solve the problem. Then, write the code."
+> "Talk is cheap. Show me the code."
 >
-> - **John Johnson** | April 04, 2026
+> - **Linus Torvalds** | April 05, 2026
 
 <!-- QUOTE:END -->
 
