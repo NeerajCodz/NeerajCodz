@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Talk is cheap. Show me the code."
+> "Simplicity is the soul of efficiency."
 >
-> - **Linus Torvalds** | April 05, 2026
+> - **Austin Freeman** | April 06, 2026
 
 <!-- QUOTE:END -->
 
