@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The best way to predict the future is to invent it."
+> "First, solve the problem. Then, write the code."
 >
-> - **Alan Kay** | April 07, 2026
+> - **John Johnson** | April 08, 2026
 
 <!-- QUOTE:END -->
 
