@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "First, solve the problem. Then, write the code."
+> "The best error message is the one that never shows up."
 >
-> - **John Johnson** | April 08, 2026
+> - **Thomas Fuchs** | April 09, 2026
 
 <!-- QUOTE:END -->
 
