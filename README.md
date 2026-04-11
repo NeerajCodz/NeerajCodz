@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The best error message is the one that never shows up."
+> "Talk is cheap. Show me the code."
 >
-> - **Thomas Fuchs** | April 10, 2026
+> - **Linus Torvalds** | April 11, 2026
 
 <!-- QUOTE:END -->
 
