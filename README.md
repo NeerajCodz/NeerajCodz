@@ -108,7 +108,7 @@ open_to:
 <!-- QUOTE:START -->
 > "Programs must be written for people to read, and only incidentally for machines to execute."
 >
-> - **Harold Abelson** | April 12, 2026
+> - **Harold Abelson** | April 13, 2026
 
 <!-- QUOTE:END -->
 
