@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Programs must be written for people to read, and only incidentally for machines to execute."
+> "Talk is cheap. Show me the code."
 >
-> - **Harold Abelson** | April 13, 2026
+> - **Linus Torvalds** | April 14, 2026
 
 <!-- QUOTE:END -->
 
