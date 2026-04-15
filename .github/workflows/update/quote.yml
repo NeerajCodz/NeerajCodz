@@ -5,6 +5,10 @@ on:
     - cron: "0 2 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: profile-readme-update
+  cancel-in-progress: false
+
 jobs:
   update-quote:
     runs-on: ubuntu-latest
@@ -22,22 +26,31 @@ jobs:
           import re
 
           QUOTES = [
-            ("Any fool can write code that a computer can understand. Good programmers write code that humans can understand.", "Martin Fowler"),
-            ("First, solve the problem. Then, write the code.", "John Johnson"),
-            ("Simplicity is the soul of efficiency.", "Austin Freeman"),
-            ("Make it work, make it right, make it fast.", "Kent Beck"),
-            ("The best error message is the one that never shows up.", "Thomas Fuchs"),
-            ("Clean code always looks like it was written by someone who cares.", "Robert C. Martin"),
-            ("Design is not just what it looks like. Design is how it works.", "Steve Jobs"),
             ("Talk is cheap. Show me the code.", "Linus Torvalds"),
-            ("If you think good architecture is expensive, try bad architecture.", "Brian Foote"),
-            ("The best way to predict the future is to invent it.", "Alan Kay"),
-            ("An expert is a person who has made all the mistakes that can be made.", "Niels Bohr"),
+            ("Measuring programming progress by lines of code is like measuring aircraft building progress by weight.", "Bill Gates"),
+            ("AI is one of the most profound things we're working on as humanity.", "Sundar Pichai"),
+            ("It is really hard to overstate how big a deal AI is going to be.", "Sam Altman"),
+            ("The most dangerous phrase in the language is, 'We've always done it this way.'", "Grace Hopper"),
+            ("Premature optimization is the root of all evil.", "Donald Knuth"),
+            ("One of my most productive days was throwing away 1,000 lines of code.", "Ken Thompson"),
+            ("Any fool can write code that a computer can understand. Good programmers write code that humans can understand.", "Martin Fowler"),
             ("Programs must be written for people to read, and only incidentally for machines to execute.", "Harold Abelson"),
+            ("There are only two kinds of languages: the ones people complain about and the ones nobody uses.", "Bjarne Stroustrup"),
+            ("Simplicity is prerequisite for reliability.", "Edsger W. Dijkstra"),
+            ("Everyone knows that debugging is twice as hard as writing a program in the first place.", "Brian Kernighan"),
+            ("Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems.", "Jamie Zawinski"),
+            ("The best way to predict the future is to invent it.", "Alan Kay"),
+            ("Code is read much more often than it is written.", "Guido van Rossum"),
+            ("Make it work, make it right, make it fast.", "Kent Beck"),
+            ("Design is not just what it looks like and feels like. Design is how it works.", "Steve Jobs"),
+            ("Focus is a matter of deciding what things you're not going to do.", "John Carmack"),
+            ("There was no choice but to be pioneers.", "Margaret Hamilton"),
+            ("UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.", "Dennis Ritchie"),
           ]
 
           quote, author = random.choice(QUOTES)
-          today = datetime.date.today().strftime("%B %d, %Y")
+          ist = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+          today = datetime.datetime.now(ist).strftime("%B %d, %Y")
           block = f"\n> \"{quote}\"\n>\n> - **{author}** | {today}\n"
 
           with open("README.md", "r", encoding="utf-8") as f:

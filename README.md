@@ -108,7 +108,7 @@ open_to:
 <!-- QUOTE:START -->
 > "Talk is cheap. Show me the code."
 >
-> - **Linus Torvalds** | April 14, 2026
+> - **Linus Torvalds** | April 15, 2026
 
 <!-- QUOTE:END -->
 
