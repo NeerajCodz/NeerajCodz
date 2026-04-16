@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Simplicity is prerequisite for reliability."
+> "The best way to predict the future is to invent it."
 >
-> - **Edsger W. Dijkstra** | April 16, 2026
+> - **Alan Kay** | April 17, 2026
 
 <!-- QUOTE:END -->
 
