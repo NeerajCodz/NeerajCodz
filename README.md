@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Simplicity is prerequisite for reliability."
+> "Make it work, make it right, make it fast."
 >
-> - **Edsger W. Dijkstra** | April 18, 2026
+> - **Kent Beck** | April 19, 2026
 
 <!-- QUOTE:END -->
 
