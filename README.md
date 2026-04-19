@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Make it work, make it right, make it fast."
+> "The most dangerous phrase in the language is, 'We've always done it this way.'"
 >
-> - **Kent Beck** | April 19, 2026
+> - **Grace Hopper** | April 20, 2026
 
 <!-- QUOTE:END -->
 
