@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The most dangerous phrase in the language is, 'We've always done it this way.'"
+> "The best way to predict the future is to invent it."
 >
-> - **Grace Hopper** | April 20, 2026
+> - **Alan Kay** | April 21, 2026
 
 <!-- QUOTE:END -->
 
