@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The best way to predict the future is to invent it."
+> "AI is one of the most profound things we're working on as humanity."
 >
-> - **Alan Kay** | April 21, 2026
+> - **Sundar Pichai** | April 22, 2026
 
 <!-- QUOTE:END -->
 
