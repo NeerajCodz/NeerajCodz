@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "AI is one of the most profound things we're working on as humanity."
+> "It is really hard to overstate how big a deal AI is going to be."
 >
-> - **Sundar Pichai** | April 22, 2026
+> - **Sam Altman** | April 23, 2026
 
 <!-- QUOTE:END -->
 
