@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "It is really hard to overstate how big a deal AI is going to be."
+> "Premature optimization is the root of all evil."
 >
-> - **Sam Altman** | April 23, 2026
+> - **Donald Knuth** | April 24, 2026
 
 <!-- QUOTE:END -->
 
