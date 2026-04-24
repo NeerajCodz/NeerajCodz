@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Premature optimization is the root of all evil."
+> "The best way to predict the future is to invent it."
 >
-> - **Donald Knuth** | April 24, 2026
+> - **Alan Kay** | April 25, 2026
 
 <!-- QUOTE:END -->
 
