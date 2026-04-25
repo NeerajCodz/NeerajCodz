@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The best way to predict the future is to invent it."
+> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
 >
-> - **Alan Kay** | April 25, 2026
+> - **Jamie Zawinski** | April 26, 2026
 
 <!-- QUOTE:END -->
 
