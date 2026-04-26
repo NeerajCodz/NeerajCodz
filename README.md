@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
+> "Code is read much more often than it is written."
 >
-> - **Jamie Zawinski** | April 26, 2026
+> - **Guido van Rossum** | April 27, 2026
 
 <!-- QUOTE:END -->
 
