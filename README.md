@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "It is really hard to overstate how big a deal AI is going to be."
+> "Everyone knows that debugging is twice as hard as writing a program in the first place."
 >
-> - **Sam Altman** | April 28, 2026
+> - **Brian Kernighan** | April 29, 2026
 
 <!-- QUOTE:END -->
 
