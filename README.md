@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Focus is a matter of deciding what things you're not going to do."
+> "Talk is cheap. Show me the code."
 >
-> - **John Carmack** | May 02, 2026
+> - **Linus Torvalds** | May 03, 2026
 
 <!-- QUOTE:END -->
 
