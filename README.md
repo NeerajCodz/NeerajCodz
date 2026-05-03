@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Talk is cheap. Show me the code."
+> "Make it work, make it right, make it fast."
 >
-> - **Linus Torvalds** | May 03, 2026
+> - **Kent Beck** | May 04, 2026
 
 <!-- QUOTE:END -->
 
