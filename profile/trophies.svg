@@ -13,7 +13,7 @@
 <text x="460" y="174" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Impact</text>
 <rect x="862" y="82" width="395" height="105" rx="14" fill="#0b1220" stroke="#334155"/>
 <text x="880" y="114" fill="#a5b4fc" font-family="Segoe UI, Arial, sans-serif" font-size="18">Public Repos</text>
-<text x="880" y="152" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">32</text>
+<text x="880" y="152" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">33</text>
 <text x="880" y="174" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Builder</text>
 <rect x="22" y="207" width="395" height="105" rx="14" fill="#0b1220" stroke="#334155"/>
 <text x="40" y="239" fill="#a5b4fc" font-family="Segoe UI, Arial, sans-serif" font-size="18">Following</text>
@@ -21,7 +21,7 @@
 <text x="40" y="299" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Network</text>
 <rect x="442" y="207" width="395" height="105" rx="14" fill="#0b1220" stroke="#334155"/>
 <text x="460" y="239" fill="#a5b4fc" font-family="Segoe UI, Arial, sans-serif" font-size="18">Merged PRs</text>
-<text x="460" y="277" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">34</text>
+<text x="460" y="277" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">68</text>
 <text x="460" y="299" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Collaboration</text>
 <rect x="862" y="207" width="395" height="105" rx="14" fill="#0b1220" stroke="#334155"/>
 <text x="880" y="239" fill="#a5b4fc" font-family="Segoe UI, Arial, sans-serif" font-size="18">Opened Issues</text>
