@@ -108,7 +108,7 @@ open_to:
 <!-- QUOTE:START -->
 > "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
 >
-> - **Bjarne Stroustrup** | May 05, 2026
+> - **Bjarne Stroustrup** | May 06, 2026
 
 <!-- QUOTE:END -->
 
