@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
+> "The most dangerous phrase in the language is, 'We've always done it this way.'"
 >
-> - **Bjarne Stroustrup** | May 06, 2026
+> - **Grace Hopper** | May 07, 2026
 
 <!-- QUOTE:END -->
 
