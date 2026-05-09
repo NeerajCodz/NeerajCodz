@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There was no choice but to be pioneers."
+> "Make it work, make it right, make it fast."
 >
-> - **Margaret Hamilton** | May 09, 2026
+> - **Kent Beck** | May 10, 2026
 
 <!-- QUOTE:END -->
 
