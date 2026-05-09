@@ -64,7 +64,7 @@ open_to:
 
 **Languages**
 
-![JavaScript](https://skillicons.dev/icons?i=js)&nbsp;![TypeScript](https://skillicons.dev/icons?i=ts)&nbsp;![Python](https://skillicons.dev/icons?i=py)&nbsp;![Go](https://skillicons.dev/icons?i=go)&nbsp;![Java](https://skillicons.dev/icons?i=java)&nbsp;![Bash](https://skillicons.dev/icons?i=bash)&nbsp;![MySQL](https://skillicons.dev/icons?i=mysql)
+![Go](https://skillicons.dev/icons?i=go)&nbsp;![Python](https://skillicons.dev/icons?i=py)&nbsp;![Rust](https://skillicons.dev/icons?i=rust)&nbsp;![TypeScript](https://skillicons.dev/icons?i=ts)&nbsp;![JavaScript](https://skillicons.dev/icons?i=js)&nbsp;![Java](https://skillicons.dev/icons?i=java)&nbsp;![Bash](https://skillicons.dev/icons?i=bash)&nbsp;![MySQL](https://skillicons.dev/icons?i=mysql)
 
 **Frameworks & Runtimes**
 
