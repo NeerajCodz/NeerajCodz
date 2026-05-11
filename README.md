@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "It is really hard to overstate how big a deal AI is going to be."
+> "The best way to predict the future is to invent it."
 >
-> - **Sam Altman** | May 11, 2026
+> - **Alan Kay** | May 12, 2026
 
 <!-- QUOTE:END -->
 
