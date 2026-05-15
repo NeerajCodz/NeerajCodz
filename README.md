@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "AI is one of the most profound things we're working on as humanity."
+> "Talk is cheap. Show me the code."
 >
-> - **Sundar Pichai** | May 15, 2026
+> - **Linus Torvalds** | May 16, 2026
 
 <!-- QUOTE:END -->
 
