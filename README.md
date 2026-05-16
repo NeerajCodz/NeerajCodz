@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Talk is cheap. Show me the code."
+> "There was no choice but to be pioneers."
 >
-> - **Linus Torvalds** | May 16, 2026
+> - **Margaret Hamilton** | May 17, 2026
 
 <!-- QUOTE:END -->
 
