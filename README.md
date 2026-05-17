@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There was no choice but to be pioneers."
+> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
 >
-> - **Margaret Hamilton** | May 17, 2026
+> - **Jamie Zawinski** | May 18, 2026
 
 <!-- QUOTE:END -->
 
