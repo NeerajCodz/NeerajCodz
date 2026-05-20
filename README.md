@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Design is not just what it looks like and feels like. Design is how it works."
+> "Premature optimization is the root of all evil."
 >
-> - **Steve Jobs** | May 20, 2026
+> - **Donald Knuth** | May 21, 2026
 
 <!-- QUOTE:END -->
 
