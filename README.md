@@ -108,7 +108,7 @@ open_to:
 <!-- QUOTE:START -->
 > "Premature optimization is the root of all evil."
 >
-> - **Donald Knuth** | May 21, 2026
+> - **Donald Knuth** | May 22, 2026
 
 <!-- QUOTE:END -->
 
