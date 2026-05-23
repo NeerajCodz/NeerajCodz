@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "AI is one of the most profound things we're working on as humanity."
+> "Programs must be written for people to read, and only incidentally for machines to execute."
 >
-> - **Sundar Pichai** | May 23, 2026
+> - **Harold Abelson** | May 24, 2026
 
 <!-- QUOTE:END -->
 
