@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "AI is one of the most profound things we're working on as humanity."
+> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
 >
-> - **Sundar Pichai** | May 25, 2026
+> - **Dennis Ritchie** | May 26, 2026
 
 <!-- QUOTE:END -->
 
