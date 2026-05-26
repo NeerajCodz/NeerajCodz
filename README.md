@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
+> "The most dangerous phrase in the language is, 'We've always done it this way.'"
 >
-> - **Dennis Ritchie** | May 26, 2026
+> - **Grace Hopper** | May 27, 2026
 
 <!-- QUOTE:END -->
 
