@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The most dangerous phrase in the language is, 'We've always done it this way.'"
+> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
 >
-> - **Grace Hopper** | May 27, 2026
+> - **Jamie Zawinski** | May 28, 2026
 
 <!-- QUOTE:END -->
 
