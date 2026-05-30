@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "It is really hard to overstate how big a deal AI is going to be."
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 >
-> - **Sam Altman** | May 30, 2026
+> - **Martin Fowler** | May 31, 2026
 
 <!-- QUOTE:END -->
 
