@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+> "Make it work, make it right, make it fast."
 >
-> - **Martin Fowler** | May 31, 2026
+> - **Kent Beck** | June 01, 2026
 
 <!-- QUOTE:END -->
 
