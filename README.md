@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The most dangerous phrase in the language is, 'We've always done it this way.'"
+> "Code is read much more often than it is written."
 >
-> - **Grace Hopper** | June 02, 2026
+> - **Guido van Rossum** | June 03, 2026
 
 <!-- QUOTE:END -->
 
