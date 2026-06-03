@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Code is read much more often than it is written."
+> "It is really hard to overstate how big a deal AI is going to be."
 >
-> - **Guido van Rossum** | June 03, 2026
+> - **Sam Altman** | June 04, 2026
 
 <!-- QUOTE:END -->
 
