@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "AI is one of the most profound things we're working on as humanity."
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 >
-> - **Sundar Pichai** | June 05, 2026
+> - **Martin Fowler** | June 06, 2026
 
 <!-- QUOTE:END -->
 
