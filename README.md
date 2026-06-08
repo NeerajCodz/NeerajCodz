@@ -108,7 +108,7 @@ open_to:
 <!-- QUOTE:START -->
 > "Focus is a matter of deciding what things you're not going to do."
 >
-> - **John Carmack** | June 08, 2026
+> - **John Carmack** | June 09, 2026
 
 <!-- QUOTE:END -->
 
