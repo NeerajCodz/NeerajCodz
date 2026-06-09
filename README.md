@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Focus is a matter of deciding what things you're not going to do."
+> "Everyone knows that debugging is twice as hard as writing a program in the first place."
 >
-> - **John Carmack** | June 09, 2026
+> - **Brian Kernighan** | June 10, 2026
 
 <!-- QUOTE:END -->
 
