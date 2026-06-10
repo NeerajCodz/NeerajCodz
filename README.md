@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Everyone knows that debugging is twice as hard as writing a program in the first place."
+> "Simplicity is prerequisite for reliability."
 >
-> - **Brian Kernighan** | June 10, 2026
+> - **Edsger W. Dijkstra** | June 11, 2026
 
 <!-- QUOTE:END -->
 
