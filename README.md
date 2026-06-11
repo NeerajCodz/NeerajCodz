@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Simplicity is prerequisite for reliability."
+> "One of my most productive days was throwing away 1,000 lines of code."
 >
-> - **Edsger W. Dijkstra** | June 11, 2026
+> - **Ken Thompson** | June 12, 2026
 
 <!-- QUOTE:END -->
 
