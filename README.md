@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "One of my most productive days was throwing away 1,000 lines of code."
+> "Programs must be written for people to read, and only incidentally for machines to execute."
 >
-> - **Ken Thompson** | June 12, 2026
+> - **Harold Abelson** | June 13, 2026
 
 <!-- QUOTE:END -->
 
