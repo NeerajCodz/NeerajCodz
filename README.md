@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Programs must be written for people to read, and only incidentally for machines to execute."
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 >
-> - **Harold Abelson** | June 13, 2026
+> - **Martin Fowler** | June 14, 2026
 
 <!-- QUOTE:END -->
 
