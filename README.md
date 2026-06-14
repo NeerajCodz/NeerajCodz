@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
 >
-> - **Martin Fowler** | June 14, 2026
+> - **Bjarne Stroustrup** | June 15, 2026
 
 <!-- QUOTE:END -->
 
