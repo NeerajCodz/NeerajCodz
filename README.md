@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
+> "Everyone knows that debugging is twice as hard as writing a program in the first place."
 >
-> - **Bjarne Stroustrup** | June 15, 2026
+> - **Brian Kernighan** | June 16, 2026
 
 <!-- QUOTE:END -->
 
