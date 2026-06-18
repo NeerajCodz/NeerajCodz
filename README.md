@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There was no choice but to be pioneers."
+> "Focus is a matter of deciding what things you're not going to do."
 >
-> - **Margaret Hamilton** | June 18, 2026
+> - **John Carmack** | June 19, 2026
 
 <!-- QUOTE:END -->
 
