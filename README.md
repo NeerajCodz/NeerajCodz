@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Focus is a matter of deciding what things you're not going to do."
+> "The best way to predict the future is to invent it."
 >
-> - **John Carmack** | June 19, 2026
+> - **Alan Kay** | June 20, 2026
 
 <!-- QUOTE:END -->
 
