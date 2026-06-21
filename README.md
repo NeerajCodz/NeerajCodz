@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Focus is a matter of deciding what things you're not going to do."
+> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
 >
-> - **John Carmack** | June 21, 2026
+> - **Dennis Ritchie** | June 22, 2026
 
 <!-- QUOTE:END -->
 
