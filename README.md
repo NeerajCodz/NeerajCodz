@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The most dangerous phrase in the language is, 'We've always done it this way.'"
+> "One of my most productive days was throwing away 1,000 lines of code."
 >
-> - **Grace Hopper** | June 23, 2026
+> - **Ken Thompson** | June 24, 2026
 
 <!-- QUOTE:END -->
 
