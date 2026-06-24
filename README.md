@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "One of my most productive days was throwing away 1,000 lines of code."
+> "Premature optimization is the root of all evil."
 >
-> - **Ken Thompson** | June 24, 2026
+> - **Donald Knuth** | June 25, 2026
 
 <!-- QUOTE:END -->
 
