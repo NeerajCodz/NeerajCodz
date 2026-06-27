@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
 >
-> - **Martin Fowler** | June 27, 2026
+> - **Jamie Zawinski** | June 28, 2026
 
 <!-- QUOTE:END -->
 
