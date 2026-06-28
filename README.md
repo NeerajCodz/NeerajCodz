@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
+> "AI is one of the most profound things we're working on as humanity."
 >
-> - **Jamie Zawinski** | June 28, 2026
+> - **Sundar Pichai** | June 29, 2026
 
 <!-- QUOTE:END -->
 
