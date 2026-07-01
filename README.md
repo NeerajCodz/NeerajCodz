@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
+> "Make it work, make it right, make it fast."
 >
-> - **Bjarne Stroustrup** | July 01, 2026
+> - **Kent Beck** | July 02, 2026
 
 <!-- QUOTE:END -->
 
