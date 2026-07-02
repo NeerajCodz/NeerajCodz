@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Make it work, make it right, make it fast."
+> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
 >
-> - **Kent Beck** | July 02, 2026
+> - **Dennis Ritchie** | July 03, 2026
 
 <!-- QUOTE:END -->
 
