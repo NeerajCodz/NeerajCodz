@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
+> "Programs must be written for people to read, and only incidentally for machines to execute."
 >
-> - **Dennis Ritchie** | July 03, 2026
+> - **Harold Abelson** | July 04, 2026
 
 <!-- QUOTE:END -->
 
