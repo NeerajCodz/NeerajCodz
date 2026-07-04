@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Programs must be written for people to read, and only incidentally for machines to execute."
+> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
 >
-> - **Harold Abelson** | July 04, 2026
+> - **Bjarne Stroustrup** | July 05, 2026
 
 <!-- QUOTE:END -->
 
