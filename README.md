@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "AI is one of the most profound things we're working on as humanity."
+> "Everyone knows that debugging is twice as hard as writing a program in the first place."
 >
-> - **Sundar Pichai** | July 07, 2026
+> - **Brian Kernighan** | July 08, 2026
 
 <!-- QUOTE:END -->
 
