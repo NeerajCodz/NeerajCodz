@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Everyone knows that debugging is twice as hard as writing a program in the first place."
+> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
 >
-> - **Brian Kernighan** | July 08, 2026
+> - **Bill Gates** | July 09, 2026
 
 <!-- QUOTE:END -->
 
