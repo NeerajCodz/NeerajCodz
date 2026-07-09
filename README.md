@@ -108,7 +108,7 @@ open_to:
 <!-- QUOTE:START -->
 > "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
 >
-> - **Bill Gates** | July 09, 2026
+> - **Bill Gates** | July 10, 2026
 
 <!-- QUOTE:END -->
 
