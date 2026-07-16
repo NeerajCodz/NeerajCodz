@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Simplicity is prerequisite for reliability."
+> "Programs must be written for people to read, and only incidentally for machines to execute."
 >
-> - **Edsger W. Dijkstra** | July 15, 2026
+> - **Harold Abelson** | July 17, 2026
 
 <!-- QUOTE:END -->
 
