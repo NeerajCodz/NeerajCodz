@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Programs must be written for people to read, and only incidentally for machines to execute."
+> "It is really hard to overstate how big a deal AI is going to be."
 >
-> - **Harold Abelson** | July 17, 2026
+> - **Sam Altman** | July 18, 2026
 
 <!-- QUOTE:END -->
 
