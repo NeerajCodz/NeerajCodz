@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "It is really hard to overstate how big a deal AI is going to be."
+> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
 >
-> - **Sam Altman** | July 18, 2026
+> - **Dennis Ritchie** | July 19, 2026
 
 <!-- QUOTE:END -->
 
