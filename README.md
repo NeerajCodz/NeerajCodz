@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
+> "Code is read much more often than it is written."
 >
-> - **Dennis Ritchie** | July 19, 2026
+> - **Guido van Rossum** | July 20, 2026
 
 <!-- QUOTE:END -->
 
