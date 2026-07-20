@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Code is read much more often than it is written."
+> "Make it work, make it right, make it fast."
 >
-> - **Guido van Rossum** | July 20, 2026
+> - **Kent Beck** | July 21, 2026
 
 <!-- QUOTE:END -->
 
