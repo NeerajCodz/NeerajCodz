@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Talk is cheap. Show me the code."
+> "Premature optimization is the root of all evil."
 >
-> - **Linus Torvalds** | July 23, 2026
+> - **Donald Knuth** | July 24, 2026
 
 <!-- QUOTE:END -->
 
