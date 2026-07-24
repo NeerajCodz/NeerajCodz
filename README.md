@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Premature optimization is the root of all evil."
+> "Make it work, make it right, make it fast."
 >
-> - **Donald Knuth** | July 24, 2026
+> - **Kent Beck** | July 25, 2026
 
 <!-- QUOTE:END -->
 
