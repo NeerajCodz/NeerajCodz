@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Make it work, make it right, make it fast."
+> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
 >
-> - **Kent Beck** | July 25, 2026
+> - **Bill Gates** | July 26, 2026
 
 <!-- QUOTE:END -->
 
