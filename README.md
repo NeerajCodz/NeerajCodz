@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Everyone knows that debugging is twice as hard as writing a program in the first place."
+> "There was no choice but to be pioneers."
 >
-> - **Brian Kernighan** | July 27, 2026
+> - **Margaret Hamilton** | July 28, 2026
 
 <!-- QUOTE:END -->
 
