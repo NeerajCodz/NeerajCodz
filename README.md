@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Make it work, make it right, make it fast."
+> "Everyone knows that debugging is twice as hard as writing a program in the first place."
 >
-> - **Kent Beck** | July 29, 2026
+> - **Brian Kernighan** | July 30, 2026
 
 <!-- QUOTE:END -->
 
