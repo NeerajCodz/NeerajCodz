@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Everyone knows that debugging is twice as hard as writing a program in the first place."
+> "The most dangerous phrase in the language is, 'We've always done it this way.'"
 >
-> - **Brian Kernighan** | July 30, 2026
+> - **Grace Hopper** | July 31, 2026
 
 <!-- QUOTE:END -->
 
