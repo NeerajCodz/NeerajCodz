@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The most dangerous phrase in the language is, 'We've always done it this way.'"
+> "Programs must be written for people to read, and only incidentally for machines to execute."
 >
-> - **Grace Hopper** | July 31, 2026
+> - **Harold Abelson** | August 01, 2026
 
 <!-- QUOTE:END -->
 
