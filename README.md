@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Programs must be written for people to read, and only incidentally for machines to execute."
+> "Everyone knows that debugging is twice as hard as writing a program in the first place."
 >
-> - **Harold Abelson** | August 01, 2026
+> - **Brian Kernighan** | August 07, 2026
 
 <!-- QUOTE:END -->
 
