@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Everyone knows that debugging is twice as hard as writing a program in the first place."
+> "One of my most productive days was throwing away 1,000 lines of code."
 >
-> - **Brian Kernighan** | August 07, 2026
+> - **Ken Thompson** | August 08, 2026
 
 <!-- QUOTE:END -->
 
