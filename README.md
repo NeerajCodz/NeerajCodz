@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "One of my most productive days was throwing away 1,000 lines of code."
+> "AI is one of the most profound things we're working on as humanity."
 >
-> - **Ken Thompson** | August 08, 2026
+> - **Sundar Pichai** | August 09, 2026
 
 <!-- QUOTE:END -->
 
