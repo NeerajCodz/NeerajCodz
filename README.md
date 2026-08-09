@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "AI is one of the most profound things we're working on as humanity."
+> "Premature optimization is the root of all evil."
 >
-> - **Sundar Pichai** | August 09, 2026
+> - **Donald Knuth** | August 10, 2026
 
 <!-- QUOTE:END -->
 
