@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Simplicity is prerequisite for reliability."
+> "There was no choice but to be pioneers."
 >
-> - **Edsger W. Dijkstra** | August 11, 2026
+> - **Margaret Hamilton** | August 12, 2026
 
 <!-- QUOTE:END -->
 
