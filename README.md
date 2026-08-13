@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The most dangerous phrase in the language is, 'We've always done it this way.'"
+> "AI is one of the most profound things we're working on as humanity."
 >
-> - **Grace Hopper** | August 13, 2026
+> - **Sundar Pichai** | August 14, 2026
 
 <!-- QUOTE:END -->
 
