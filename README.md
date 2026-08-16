@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "It is really hard to overstate how big a deal AI is going to be."
+> "There was no choice but to be pioneers."
 >
-> - **Sam Altman** | August 16, 2026
+> - **Margaret Hamilton** | August 17, 2026
 
 <!-- QUOTE:END -->
 
