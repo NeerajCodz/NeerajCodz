@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There was no choice but to be pioneers."
+> "Code is read much more often than it is written."
 >
-> - **Margaret Hamilton** | August 17, 2026
+> - **Guido van Rossum** | August 18, 2026
 
 <!-- QUOTE:END -->
 
