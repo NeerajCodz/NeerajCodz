@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Code is read much more often than it is written."
+> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
 >
-> - **Guido van Rossum** | August 18, 2026
+> - **Bjarne Stroustrup** | August 19, 2026
 
 <!-- QUOTE:END -->
 
