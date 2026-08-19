@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
+> "Focus is a matter of deciding what things you're not going to do."
 >
-> - **Bjarne Stroustrup** | August 19, 2026
+> - **John Carmack** | August 20, 2026
 
 <!-- QUOTE:END -->
 
