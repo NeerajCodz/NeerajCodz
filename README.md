@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Focus is a matter of deciding what things you're not going to do."
+> "Code is read much more often than it is written."
 >
-> - **John Carmack** | August 20, 2026
+> - **Guido van Rossum** | August 21, 2026
 
 <!-- QUOTE:END -->
 
