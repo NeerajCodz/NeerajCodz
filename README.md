@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Code is read much more often than it is written."
+> "Programs must be written for people to read, and only incidentally for machines to execute."
 >
-> - **Guido van Rossum** | August 21, 2026
+> - **Harold Abelson** | August 22, 2026
 
 <!-- QUOTE:END -->
 
