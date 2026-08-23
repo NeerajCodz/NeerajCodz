@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Simplicity is prerequisite for reliability."
+> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
 >
-> - **Edsger W. Dijkstra** | August 23, 2026
+> - **Jamie Zawinski** | August 24, 2026
 
 <!-- QUOTE:END -->
 
