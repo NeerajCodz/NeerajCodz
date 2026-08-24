@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
+> "Talk is cheap. Show me the code."
 >
-> - **Jamie Zawinski** | August 24, 2026
+> - **Linus Torvalds** | August 25, 2026
 
 <!-- QUOTE:END -->
 
