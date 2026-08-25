@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Talk is cheap. Show me the code."
+> "Design is not just what it looks like and feels like. Design is how it works."
 >
-> - **Linus Torvalds** | August 25, 2026
+> - **Steve Jobs** | August 26, 2026
 
 <!-- QUOTE:END -->
 
