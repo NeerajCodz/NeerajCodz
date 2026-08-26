@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Design is not just what it looks like and feels like. Design is how it works."
+> "AI is one of the most profound things we're working on as humanity."
 >
-> - **Steve Jobs** | August 26, 2026
+> - **Sundar Pichai** | August 27, 2026
 
 <!-- QUOTE:END -->
 
