@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "AI is one of the most profound things we're working on as humanity."
+> "There was no choice but to be pioneers."
 >
-> - **Sundar Pichai** | August 27, 2026
+> - **Margaret Hamilton** | August 28, 2026
 
 <!-- QUOTE:END -->
 
