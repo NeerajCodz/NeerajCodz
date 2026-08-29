@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Focus is a matter of deciding what things you're not going to do."
+> "It is really hard to overstate how big a deal AI is going to be."
 >
-> - **John Carmack** | August 29, 2026
+> - **Sam Altman** | August 30, 2026
 
 <!-- QUOTE:END -->
 
