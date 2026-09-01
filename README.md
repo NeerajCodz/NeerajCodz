@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Talk is cheap. Show me the code."
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 >
-> - **Linus Torvalds** | September 01, 2026
+> - **Martin Fowler** | September 02, 2026
 
 <!-- QUOTE:END -->
 
