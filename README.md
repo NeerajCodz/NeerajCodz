@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+> "One of my most productive days was throwing away 1,000 lines of code."
 >
-> - **Martin Fowler** | September 02, 2026
+> - **Ken Thompson** | September 03, 2026
 
 <!-- QUOTE:END -->
 
