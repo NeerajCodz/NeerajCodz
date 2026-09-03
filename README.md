@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "One of my most productive days was throwing away 1,000 lines of code."
+> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
 >
-> - **Ken Thompson** | September 03, 2026
+> - **Jamie Zawinski** | September 04, 2026
 
 <!-- QUOTE:END -->
 
