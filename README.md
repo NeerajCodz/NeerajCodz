@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
+> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
 >
-> - **Jamie Zawinski** | September 04, 2026
+> - **Bjarne Stroustrup** | September 05, 2026
 
 <!-- QUOTE:END -->
 
