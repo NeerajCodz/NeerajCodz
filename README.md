@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
+> "One of my most productive days was throwing away 1,000 lines of code."
 >
-> - **Bjarne Stroustrup** | September 05, 2026
+> - **Ken Thompson** | September 06, 2026
 
 <!-- QUOTE:END -->
 
