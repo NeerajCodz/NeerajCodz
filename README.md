@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Everyone knows that debugging is twice as hard as writing a program in the first place."
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 >
-> - **Brian Kernighan** | September 07, 2026
+> - **Martin Fowler** | September 08, 2026
 
 <!-- QUOTE:END -->
 
