@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+> "The best way to predict the future is to invent it."
 >
-> - **Martin Fowler** | September 08, 2026
+> - **Alan Kay** | September 09, 2026
 
 <!-- QUOTE:END -->
 
