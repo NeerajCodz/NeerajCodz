@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The best way to predict the future is to invent it."
+> "Everyone knows that debugging is twice as hard as writing a program in the first place."
 >
-> - **Alan Kay** | September 09, 2026
+> - **Brian Kernighan** | September 10, 2026
 
 <!-- QUOTE:END -->
 
