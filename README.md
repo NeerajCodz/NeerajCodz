@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Everyone knows that debugging is twice as hard as writing a program in the first place."
+> "Premature optimization is the root of all evil."
 >
-> - **Brian Kernighan** | September 10, 2026
+> - **Donald Knuth** | September 11, 2026
 
 <!-- QUOTE:END -->
 
