@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Premature optimization is the root of all evil."
+> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
 >
-> - **Donald Knuth** | September 11, 2026
+> - **Dennis Ritchie** | September 12, 2026
 
 <!-- QUOTE:END -->
 
