@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
+> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
 >
-> - **Dennis Ritchie** | September 12, 2026
+> - **Jamie Zawinski** | September 13, 2026
 
 <!-- QUOTE:END -->
 
