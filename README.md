@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
+> "Design is not just what it looks like and feels like. Design is how it works."
 >
-> - **Jamie Zawinski** | September 13, 2026
+> - **Steve Jobs** | September 14, 2026
 
 <!-- QUOTE:END -->
 
