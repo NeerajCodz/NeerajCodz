@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Design is not just what it looks like and feels like. Design is how it works."
+> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
 >
-> - **Steve Jobs** | September 14, 2026
+> - **Bjarne Stroustrup** | September 15, 2026
 
 <!-- QUOTE:END -->
 
