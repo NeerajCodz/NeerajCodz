@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There was no choice but to be pioneers."
+> "The most dangerous phrase in the language is, 'We've always done it this way.'"
 >
-> - **Margaret Hamilton** | September 17, 2026
+> - **Grace Hopper** | September 18, 2026
 
 <!-- QUOTE:END -->
 
