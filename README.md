@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The most dangerous phrase in the language is, 'We've always done it this way.'"
+> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
 >
-> - **Grace Hopper** | September 18, 2026
+> - **Bill Gates** | September 19, 2026
 
 <!-- QUOTE:END -->
 
