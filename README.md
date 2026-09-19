@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 >
-> - **Bill Gates** | September 19, 2026
+> - **Martin Fowler** | September 20, 2026
 
 <!-- QUOTE:END -->
 
