@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Premature optimization is the root of all evil."
+> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
 >
-> - **Donald Knuth** | September 24, 2026
+> - **Bjarne Stroustrup** | September 25, 2026
 
 <!-- QUOTE:END -->
 
