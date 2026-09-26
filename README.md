@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Programs must be written for people to read, and only incidentally for machines to execute."
+> "There was no choice but to be pioneers."
 >
-> - **Harold Abelson** | September 26, 2026
+> - **Margaret Hamilton** | September 27, 2026
 
 <!-- QUOTE:END -->
 
