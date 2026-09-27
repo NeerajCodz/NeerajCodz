@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There was no choice but to be pioneers."
+> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
 >
-> - **Margaret Hamilton** | September 27, 2026
+> - **Bill Gates** | September 28, 2026
 
 <!-- QUOTE:END -->
 
