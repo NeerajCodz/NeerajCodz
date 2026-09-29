@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+> "There was no choice but to be pioneers."
 >
-> - **Martin Fowler** | September 29, 2026
+> - **Margaret Hamilton** | September 30, 2026
 
 <!-- QUOTE:END -->
 
