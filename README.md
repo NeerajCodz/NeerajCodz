@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There was no choice but to be pioneers."
+> "Design is not just what it looks like and feels like. Design is how it works."
 >
-> - **Margaret Hamilton** | September 30, 2026
+> - **Steve Jobs** | October 01, 2026
 
 <!-- QUOTE:END -->
 
