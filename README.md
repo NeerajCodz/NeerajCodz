@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Design is not just what it looks like and feels like. Design is how it works."
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 >
-> - **Steve Jobs** | October 01, 2026
+> - **Martin Fowler** | October 02, 2026
 
 <!-- QUOTE:END -->
 
