@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+> "Premature optimization is the root of all evil."
 >
-> - **Martin Fowler** | October 02, 2026
+> - **Donald Knuth** | October 03, 2026
 
 <!-- QUOTE:END -->
 
