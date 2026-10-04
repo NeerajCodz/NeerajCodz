@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The best way to predict the future is to invent it."
+> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
 >
-> - **Alan Kay** | October 04, 2026
+> - **Bill Gates** | October 05, 2026
 
 <!-- QUOTE:END -->
 
