@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
+> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
 >
-> - **Bjarne Stroustrup** | October 06, 2026
+> - **Dennis Ritchie** | October 07, 2026
 
 <!-- QUOTE:END -->
 
