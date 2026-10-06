@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
+> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
 >
-> - **Bill Gates** | October 05, 2026
+> - **Bjarne Stroustrup** | October 06, 2026
 
 <!-- QUOTE:END -->
 
