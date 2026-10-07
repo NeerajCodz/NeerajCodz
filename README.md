@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 >
-> - **Dennis Ritchie** | October 07, 2026
+> - **Martin Fowler** | October 08, 2026
 
 <!-- QUOTE:END -->
 
