@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Make it work, make it right, make it fast."
+> "Design is not just what it looks like and feels like. Design is how it works."
 >
-> - **Kent Beck** | October 09, 2026
+> - **Steve Jobs** | October 10, 2026
 
 <!-- QUOTE:END -->
 
