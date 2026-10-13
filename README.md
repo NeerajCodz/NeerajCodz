@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Code is read much more often than it is written."
+> "Premature optimization is the root of all evil."
 >
-> - **Guido van Rossum** | October 13, 2026
+> - **Donald Knuth** | October 14, 2026
 
 <!-- QUOTE:END -->
 
