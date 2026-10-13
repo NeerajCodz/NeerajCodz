@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "AI is one of the most profound things we're working on as humanity."
+> "Code is read much more often than it is written."
 >
-> - **Sundar Pichai** | October 12, 2026
+> - **Guido van Rossum** | October 13, 2026
 
 <!-- QUOTE:END -->
 
