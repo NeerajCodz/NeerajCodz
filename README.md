@@ -108,7 +108,7 @@ open_to:
 <!-- QUOTE:START -->
 > "Everyone knows that debugging is twice as hard as writing a program in the first place."
 >
-> - **Brian Kernighan** | October 15, 2026
+> - **Brian Kernighan** | October 16, 2026
 
 <!-- QUOTE:END -->
 
