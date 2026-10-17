@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "AI is one of the most profound things we're working on as humanity."
+> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
 >
-> - **Sundar Pichai** | October 17, 2026
+> - **Bill Gates** | October 18, 2026
 
 <!-- QUOTE:END -->
 
