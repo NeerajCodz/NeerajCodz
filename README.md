@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
+> "Talk is cheap. Show me the code."
 >
-> - **Bill Gates** | October 18, 2026
+> - **Linus Torvalds** | October 19, 2026
 
 <!-- QUOTE:END -->
 
