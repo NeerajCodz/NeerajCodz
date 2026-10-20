@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The best way to predict the future is to invent it."
+> "Talk is cheap. Show me the code."
 >
-> - **Alan Kay** | October 20, 2026
+> - **Linus Torvalds** | October 21, 2026
 
 <!-- QUOTE:END -->
 
