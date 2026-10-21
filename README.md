@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Talk is cheap. Show me the code."
+> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
 >
-> - **Linus Torvalds** | October 21, 2026
+> - **Dennis Ritchie** | October 22, 2026
 
 <!-- QUOTE:END -->
 
