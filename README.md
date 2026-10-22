@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
+> "The best way to predict the future is to invent it."
 >
-> - **Dennis Ritchie** | October 22, 2026
+> - **Alan Kay** | October 23, 2026
 
 <!-- QUOTE:END -->
 
