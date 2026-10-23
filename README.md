@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The best way to predict the future is to invent it."
+> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
 >
-> - **Alan Kay** | October 23, 2026
+> - **Bjarne Stroustrup** | October 24, 2026
 
 <!-- QUOTE:END -->
 
