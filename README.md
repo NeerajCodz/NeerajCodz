@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
+> "There was no choice but to be pioneers."
 >
-> - **Bjarne Stroustrup** | October 24, 2026
+> - **Margaret Hamilton** | October 25, 2026
 
 <!-- QUOTE:END -->
 
