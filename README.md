@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
+> "Make it work, make it right, make it fast."
 >
-> - **Jamie Zawinski** | October 28, 2026
+> - **Kent Beck** | October 29, 2026
 
 <!-- QUOTE:END -->
 
