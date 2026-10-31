@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The most dangerous phrase in the language is, 'We've always done it this way.'"
+> "It is really hard to overstate how big a deal AI is going to be."
 >
-> - **Grace Hopper** | October 31, 2026
+> - **Sam Altman** | November 01, 2026
 
 <!-- QUOTE:END -->
 
