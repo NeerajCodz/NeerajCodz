@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "It is really hard to overstate how big a deal AI is going to be."
+> "Make it work, make it right, make it fast."
 >
-> - **Sam Altman** | November 03, 2026
+> - **Kent Beck** | November 04, 2026
 
 <!-- QUOTE:END -->
 
