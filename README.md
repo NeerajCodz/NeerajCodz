@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Make it work, make it right, make it fast."
+> "One of my most productive days was throwing away 1,000 lines of code."
 >
-> - **Kent Beck** | November 04, 2026
+> - **Ken Thompson** | November 05, 2026
 
 <!-- QUOTE:END -->
 
