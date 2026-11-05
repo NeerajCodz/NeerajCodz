@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "One of my most productive days was throwing away 1,000 lines of code."
+> "The best way to predict the future is to invent it."
 >
-> - **Ken Thompson** | November 05, 2026
+> - **Alan Kay** | November 06, 2026
 
 <!-- QUOTE:END -->
 
