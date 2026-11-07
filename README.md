@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Simplicity is prerequisite for reliability."
+> "Premature optimization is the root of all evil."
 >
-> - **Edsger W. Dijkstra** | November 07, 2026
+> - **Donald Knuth** | November 08, 2026
 
 <!-- QUOTE:END -->
 
