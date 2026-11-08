@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Premature optimization is the root of all evil."
+> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
 >
-> - **Donald Knuth** | November 08, 2026
+> - **Jamie Zawinski** | November 09, 2026
 
 <!-- QUOTE:END -->
 
