@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
+> "Simplicity is prerequisite for reliability."
 >
-> - **Bill Gates** | November 10, 2026
+> - **Edsger W. Dijkstra** | November 11, 2026
 
 <!-- QUOTE:END -->
 
