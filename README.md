@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
+> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
 >
-> - **Jamie Zawinski** | November 09, 2026
+> - **Bill Gates** | November 10, 2026
 
 <!-- QUOTE:END -->
 
