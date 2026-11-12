@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Simplicity is prerequisite for reliability."
+> "The most dangerous phrase in the language is, 'We've always done it this way.'"
 >
-> - **Edsger W. Dijkstra** | November 11, 2026
+> - **Grace Hopper** | November 12, 2026
 
 <!-- QUOTE:END -->
 
