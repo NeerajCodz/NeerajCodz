@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The most dangerous phrase in the language is, 'We've always done it this way.'"
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 >
-> - **Grace Hopper** | November 12, 2026
+> - **Martin Fowler** | November 13, 2026
 
 <!-- QUOTE:END -->
 
