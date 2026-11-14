@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "One of my most productive days was throwing away 1,000 lines of code."
+> "There was no choice but to be pioneers."
 >
-> - **Ken Thompson** | November 14, 2026
+> - **Margaret Hamilton** | November 15, 2026
 
 <!-- QUOTE:END -->
 
