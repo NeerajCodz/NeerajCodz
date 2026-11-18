@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Make it work, make it right, make it fast."
+> "The best way to predict the future is to invent it."
 >
-> - **Kent Beck** | November 17, 2026
+> - **Alan Kay** | November 18, 2026
 
 <!-- QUOTE:END -->
 
