@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "The best way to predict the future is to invent it."
+> "There was no choice but to be pioneers."
 >
-> - **Alan Kay** | November 18, 2026
+> - **Margaret Hamilton** | November 19, 2026
 
 <!-- QUOTE:END -->
 
