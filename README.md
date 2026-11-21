@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Code is read much more often than it is written."
+> "One of my most productive days was throwing away 1,000 lines of code."
 >
-> - **Guido van Rossum** | November 20, 2026
+> - **Ken Thompson** | November 21, 2026
 
 <!-- QUOTE:END -->
 
