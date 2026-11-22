@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Programs must be written for people to read, and only incidentally for machines to execute."
+> "Premature optimization is the root of all evil."
 >
-> - **Harold Abelson** | November 22, 2026
+> - **Donald Knuth** | November 23, 2026
 
 <!-- QUOTE:END -->
 
