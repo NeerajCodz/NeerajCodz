@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Simplicity is prerequisite for reliability."
+> "Talk is cheap. Show me the code."
 >
-> - **Edsger W. Dijkstra** | November 24, 2026
+> - **Linus Torvalds** | November 25, 2026
 
 <!-- QUOTE:END -->
 
