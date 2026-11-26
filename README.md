@@ -106,9 +106,9 @@ open_to:
 ## Quote of the Day
 
 <!-- QUOTE:START -->
-> "Talk is cheap. Show me the code."
+> "Code is read much more often than it is written."
 >
-> - **Linus Torvalds** | November 25, 2026
+> - **Guido van Rossum** | November 26, 2026
 
 <!-- QUOTE:END -->
 
